@@ -1,0 +1,76 @@
+name: Actualizar datos AIS
+
+on:
+  workflow_dispatch: {}  # Permite que Cron-Job.org lo active de forma externa
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Descargar y combinar JSONs
+        run: |
+          mkdir -p data
+          python3 - <<'EOF'
+          import json
+          import ssl
+          import urllib.request
+          import datetime
+          import os
+
+          ctx_sin_verificar = ssl.create_default_context()
+          ctx_sin_verificar.check_hostname = False
+          ctx_sin_verificar.verify_mode = ssl.CERT_NONE
+
+          fuentes = {
+              "SanLorenzo": "https://hidrografia.agpse.gob.ar/mapa/AIS_SanLorenzo.json",
+              "Rosario":    "https://hidrografia.agpse.gob.ar/mapa/AIS_Rosario.json",
+              "DelGuazu":   "https://hidrografia.agpse.gob.ar/mapa/AIS_DelGuazu.json",
+              "Braga":      "https://hidrografia.agpse.gob.ar/mapa/AIS_Braga.json",
+              "BellaVista": "https://hidrografia.agpse.gob.ar/mapa/AIS_BellaVista.json",
+          }
+
+          datos_anteriores = {}
+          if os.path.exists("data/latest.json"):
+              try:
+                  with open("data/latest.json", encoding="utf-8") as f:
+                      datos_anteriores = json.load(f).get("zonas", {})
+              except Exception:
+                  pass
+
+          zonas_nuevas = {}
+          req_headers = {"User-Agent": "Mozilla/5.0 (compatible; AIS-map-updater/1.0)"}
+
+          for nombre, url in fuentes.items():
+              try:
+                  req = urllib.request.Request(url, headers=req_headers)
+                  with urllib.request.urlopen(req, timeout=20, context=ctx_sin_verificar) as resp:
+                      data = json.loads(resp.read().decode("utf-8"))
+                      zonas_nuevas[nombre] = data
+              except Exception as e:
+                  print(f"Error bajando {nombre}: {e}")
+                  zonas_nuevas[nombre] = datos_anteriores.get(nombre, {"error": str(e)})
+
+          if zonas_nuevas == datos_anteriores and datos_anteriores:
+              print("Sin cambios en los barcos. Saltando escritura.")
+          else:
+              combinado = {
+                  "actualizado": datetime.datetime.utcnow().isoformat() + "Z",
+                  "zonas": zonas_nuevas
+              }
+              with open("data/latest.json", "w", encoding="utf-8") as f:
+                  json.dump(combinado, f, ensure_ascii=False)
+              print("Cambios guardados en data/latest.json")
+          EOF
+
+      - name: Commit y push si cambió algo
+        run: |
+          git config user.name "ais-bot"
+          git config user.email "ais-bot@users.noreply.github.com"
+          git add data/latest.json
+          git diff --staged --quiet || (git commit -m "Actualiza datos AIS $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git push)
