@@ -1,7 +1,7 @@
 name: Actualizar datos AIS
 
 on:
-  workflow_dispatch: {}  # Permite que Cron-Job.org lo active de forma externa
+  workflow_dispatch: {}  # Se dispara mediante Cron-Job.org
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Descargar y combinar JSONs
+      - name: Descargar y organizar datos AIS
         run: |
           mkdir -p data
           python3 - <<'EOF'
@@ -23,6 +23,7 @@ jobs:
           import datetime
           import os
 
+          # Configuración de SSL para AGPSE
           ctx_sin_verificar = ssl.create_default_context()
           ctx_sin_verificar.check_hostname = False
           ctx_sin_verificar.verify_mode = ssl.CERT_NONE
@@ -35,6 +36,7 @@ jobs:
               "BellaVista": "https://hidrografia.agpse.gob.ar/mapa/AIS_BellaVista.json",
           }
 
+          # 1. Intentar cargar datos anteriores para evitar commits duplicados
           datos_anteriores = {}
           if os.path.exists("data/latest.json"):
               try:
@@ -50,27 +52,63 @@ jobs:
               try:
                   req = urllib.request.Request(url, headers=req_headers)
                   with urllib.request.urlopen(req, timeout=20, context=ctx_sin_verificar) as resp:
-                      data = json.loads(resp.read().decode("utf-8"))
-                      zonas_nuevas[nombre] = data
+                      zonas_nuevas[nombre] = json.loads(resp.read().decode("utf-8"))
               except Exception as e:
                   print(f"Error bajando {nombre}: {e}")
                   zonas_nuevas[nombre] = datos_anteriores.get(nombre, {"error": str(e)})
 
+          # 2. Verificar si hubo cambios reales en los barcos
           if zonas_nuevas == datos_anteriores and datos_anteriores:
-              print("Sin cambios en los barcos. Saltando escritura.")
+              print("Sin cambios en las posiciones de los barcos. No se guarda nada.")
           else:
+              ahora = datetime.datetime.utcnow()
+              timestamp_str = ahora.isoformat() + "Z"
+              
+              # --- PARTE A: Actualizar el archivo en vivo ---
               combinado = {
-                  "actualizado": datetime.datetime.utcnow().isoformat() + "Z",
+                  "actualizado": timestamp_str,
                   "zonas": zonas_nuevas
               }
               with open("data/latest.json", "w", encoding="utf-8") as f:
                   json.dump(combinado, f, ensure_ascii=False)
-              print("Cambios guardados en data/latest.json")
+              print("Actualizado: data/latest.json")
+
+              # --- PARTE B: Guardar en el Data Lake histórico ---
+              anio = ahora.strftime("%Y")
+              mes = ahora.strftime("%m")
+              dia_fecha = ahora.strftime("%Y-%m-%d")
+              
+              # Crear las carpetas de forma dinámica (ej: data/historico/2026/07/)
+              ruta_carpeta = os.path.join("data", "historico", anio, mes)
+              os.makedirs(ruta_carpeta, exist_ok=True)
+              
+              ruta_archivo_dia = os.path.join(ruta_carpeta, f"{dia_fecha}.json")
+              
+              # Si el archivo del día ya existe, le sumamos la nueva captura al historial
+              historial_del_dia = []
+              if os.path.exists(ruta_archivo_dia):
+                  try:
+                      with open(ruta_archivo_dia, "r", encoding="utf-8") as f:
+                          historial_del_dia = json.load(f)
+                  except Exception:
+                      pass
+              
+              # Agregamos la captura actual al array del día
+              historial_del_dia.append({
+                  "timestamp": timestamp_str,
+                  "zonas": zonas_nuevas
+              })
+              
+              # Guardamos el archivo diario actualizado
+              with open(ruta_archivo_dia, "w", encoding="utf-8") as f:
+                  json.dump(historial_del_dia, f, ensure_ascii=False)
+              print(f"Historial acumulado en: {ruta_archivo_dia}")
           EOF
 
-      - name: Commit y push si cambió algo
+      - name: Commit y push de los cambios
         run: |
           git config user.name "ais-bot"
           git config user.email "ais-bot@users.noreply.github.com"
-          git add data/latest.json
-          git diff --staged --quiet || (git commit -m "Actualiza datos AIS $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git push)
+          git add data/
+          # Hacemos commit tanto si cambió el archivo en vivo como si se generó registro histórico
+          git diff --staged --quiet || (git commit -m "Actualiza datos y archivo histórico AIS $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git push)
