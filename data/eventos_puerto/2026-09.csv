@@ -2041,3 +2041,53 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-05,22:10:09,Puerto Buenos Aires,352004466,ASTURIANO III,339.7,Braga
 2026-09-05,22:10:09,Puerto Buenos Aires,755043000,AVA PAYAGUA,205.7,Braga
 2026-09-05,22:10:09,Puerto Barranqueras,701006277,RAP,459.7,BellaVista
+2026-09-05,22:20:09,Muelle Alumbrera,255915742,BOCHEM CASABLANCA,163.3,SanLorenzo
+2026-09-05,22:20:09,Cofco Internacional Argentina S.A.,563169800,RUBY,149.8,SanLorenzo
+2026-09-05,22:20:09,Vicentin S.A.I.C,357458000,BULK ITALY,202.2,SanLorenzo
+2026-09-05,22:20:09,Puerto Rosario S. A. Terminal 1,477754600,MAERSK VENEZIA,69.3,SanLorenzo
+2026-09-05,22:20:09,Terminal 6 S.A. Muelle Sur,538004481,AGIA PARASKEVI,139.6,SanLorenzo
+2026-09-05,22:20:09,Cofco S.A.,636024698,MC CALYPSO,145.8,SanLorenzo
+2026-09-05,22:20:09,Central Termoeléctrica Timbués Renova,636093258,EMMA JANNEKE,285.4,SanLorenzo
+2026-09-05,22:20:09,Aceitera General Deheza,538008779,LIVADI,234.4,SanLorenzo
+2026-09-05,22:20:09,Terminal Chacabuco YPF,701001114,IGUAZU,113.2,SanLorenzo
+2026-09-05,22:20:09,Bunge - La Plata Cereal S.A. Muelle Dempa,256685000,RODINA,152.1,SanLorenzo
+2026-09-05,22:20:09,Central Termoeléctrica Timbués Renova,563234800,IVS DUNES,167.2,SanLorenzo
+2026-09-05,22:20:09,Bunge - La Plata Cereal S.A.,538004184,BLACK PEARL,202.3,SanLorenzo
+2026-09-05,22:20:09,Terminal 6 S.A. Muelle Norte,351011000,OCEAN CROWN,161.3,SanLorenzo
+2026-09-05,22:20:09,Cargill S.A. Villa Gdor. Gálvez,241624000,LEGEND,322.2,SanLorenzo
+2026-09-05,22:20:09,Mosaic S.A. Muelle De Fertilizantes,352006388,NORSE BORNHOLM,189.1,SanLorenzo
+2026-09-05,22:20:09,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,160.3,SanLorenzo
+2026-09-05,22:20:09,Terminal Chacabuco YPF,701001324,HALCON,111.0,SanLorenzo
+2026-09-05,22:20:09,Molinos Rí­o De La Plata,256672000,ARIETTA,371.9,SanLorenzo
+2026-09-05,22:20:09,Axion San Lorenzo,538009801,HELIOS,160.0,SanLorenzo
+2026-09-05,22:20:09,Puerto San Lorenzo,563163900,ANNA SCHULTE,107.6,SanLorenzo
+2026-09-05,22:20:09,Cargill S.A. Muelle Quebracho,538008936,SOUND YOUNG,218.4,SanLorenzo
+2026-09-05,22:20:09,Zona Franca Paraguaya,701006670,BRUTUS,46.2,SanLorenzo
+2026-09-05,22:20:09,Terminal 6 S.A. Muelle Sur,755032000,RUBEN H,195.0,SanLorenzo
+2026-09-05,22:20:09,Puerto Diamante,701006803,ANTONIO PUGLIESE,448.0,SanLorenzo
+2026-09-05,22:20:09,Cargill S.A. Punta Alvear,538011430,SOFIA,111.4,SanLorenzo
+2026-09-05,22:20:09,Puerto Villa Constitución Unidad II,701006679,,77.3,Rosario
+2026-09-05,22:20:09,Vicentin S.A.I.C,357458000,BULK ITALY,202.2,Rosario
+2026-09-05,22:20:09,Puerto Rosario S. A. Terminal 1,477754600,MAERSK VENEZIA,69.3,Rosario
+2026-09-05,22:20:09,Aceitera General Deheza,538008779,LIVADI,234.4,Rosario
+2026-09-05,22:20:09,Bunge - La Plata Cereal S.A. Muelle Dempa,256685000,RODINA,152.1,Rosario
+2026-09-05,22:20:09,Bunge - La Plata Cereal S.A.,538004184,BLACK PEARL,202.3,Rosario
+2026-09-05,22:20:09,Cargill S.A. Villa Gdor. Gálvez,241624000,LEGEND,322.2,Rosario
+2026-09-05,22:20:09,Mosaic S.A. Muelle De Fertilizantes,352006388,NORSE BORNHOLM,189.1,Rosario
+2026-09-05,22:20:09,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,538008276,PORT IMABARI,213.2,Rosario
+2026-09-05,22:20:09,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,160.3,Rosario
+2026-09-05,22:20:09,Molinos Rí­o De La Plata,256672000,ARIETTA,371.9,Rosario
+2026-09-05,22:20:09,Puerto San Lorenzo,563163900,ANNA SCHULTE,107.6,Rosario
+2026-09-05,22:20:09,Cargill S.A. Muelle Quebracho,538008936,SOUND YOUNG,218.4,Rosario
+2026-09-05,22:20:09,Zona Franca Paraguaya,701006670,BRUTUS,46.2,Rosario
+2026-09-05,22:20:09,Cargill S.A. Punta Alvear,538011430,SOFIA,111.4,Rosario
+2026-09-05,22:20:09,Siderca S.A.,636019109,JY LAKE,374.3,DelGuazu
+2026-09-05,22:20:09,Terminal Zarate S.A.,636025521,ITHACA,133.4,DelGuazu
+2026-09-05,22:20:09,Maripasa S.A.,755201178,NUAR B.,182.8,DelGuazu
+2026-09-05,22:20:09,Esso S.a.p.a.,701137000,PUNTA PIRAMIDES,448.2,DelGuazu
+2026-09-05,22:20:09,R.h.a.s.a. - Pobater,701006318,MAMACOTA,157.4,DelGuazu
+2026-09-05,22:20:09,Carboclor S.A.,215622000,TAXIDIARA,105.8,DelGuazu
+2026-09-05,22:20:09,Puerto Buenos Aires,352004466,ASTURIANO III,338.8,Braga
+2026-09-05,22:20:09,Puerto Dock Sud,352287000,ELENA H,186.3,Braga
+2026-09-05,22:20:09,Puerto Buenos Aires,755043000,AVA PAYAGUA,204.4,Braga
+2026-09-05,22:20:09,Puerto Barranqueras,701006277,RAP,460.4,BellaVista
