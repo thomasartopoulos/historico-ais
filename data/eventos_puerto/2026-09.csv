@@ -16082,3 +16082,56 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-07,16:00:16,Esso S.a.p.a.,701006380,,426.4,Braga
 2026-09-07,16:00:16,Puerto Dock Sud,352001682,ALFA C,194.9,Braga
 2026-09-07,16:00:16,Puerto Buenos Aires,755043000,AVA PAYAGUA,206.4,Braga
+2026-09-07,16:10:10,Unidad VI Servicios Portuarios S.A.,538010750,TOKYO SPIRIT,182.4,SanLorenzo
+2026-09-07,16:10:10,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,148.7,SanLorenzo
+2026-09-07,16:10:10,Terminal Chacabuco YPF,701001324,HALCON,116.5,SanLorenzo
+2026-09-07,16:10:10,Toepfer International Argentina S.r.l.,352006380,CL KIBOU,150.1,SanLorenzo
+2026-09-07,16:10:10,Puerto San Lorenzo,352006388,NORSE BORNHOLM,99.8,SanLorenzo
+2026-09-07,16:10:10,Cofco S.A.,636024379,STAR WESTPORT,143.5,SanLorenzo
+2026-09-07,16:10:10,Terminal 6 S.A. Muelle Sur,311000195,CS SARAFINA,133.2,SanLorenzo
+2026-09-07,16:10:10,ADM Agro Terminal El Tránsito,255916599,RANA,82.4,SanLorenzo
+2026-09-07,16:10:10,Central Termoeléctrica Timbués Renova,255915742,BOCHEM CASABLANCA,306.6,SanLorenzo
+2026-09-07,16:10:10,Terminal 6 S.A. Muelle Norte,351011000,OCEAN CROWN,145.9,SanLorenzo
+2026-09-07,16:10:10,Central Termoeléctrica Timbués Renova,563151400,FRANCESCO,152.7,SanLorenzo
+2026-09-07,16:10:10,Molinos Rí­o De La Plata,701001307,MAX DREAM,49.2,SanLorenzo
+2026-09-07,16:10:10,Asociación de Cooperativas Argentina,352004948,OBE UNITY,201.6,SanLorenzo
+2026-09-07,16:10:10,Molinos Rí­o De La Plata,357232000,YOZAN,370.3,SanLorenzo
+2026-09-07,16:10:10,Terminal Chacabuco YPF,701001114,IGUAZU,119.0,SanLorenzo
+2026-09-07,16:10:10,Aceitera General Deheza,538008779,LIVADI,228.1,SanLorenzo
+2026-09-07,16:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,355174000,APOGEE SPIRIT,130.9,SanLorenzo
+2026-09-07,16:10:10,Cargill S.A. Muelle Quebracho,636025133,YAMI BENEFIT,207.5,SanLorenzo
+2026-09-07,16:10:10,Terminal Chacabuco YPF,701153000,PAULINO C,82.7,SanLorenzo
+2026-09-07,16:10:10,Cofco S.A.,701006396,VB RECOLETA,222.9,SanLorenzo
+2026-09-07,16:10:10,Puerto Diamante,701006803,ANTONIO PUGLIESE,451.7,SanLorenzo
+2026-09-07,16:10:10,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,98.8,SanLorenzo
+2026-09-07,16:10:10,Toepfer International Argentina S.r.l.,701006670,BRUTUS,322.1,SanLorenzo
+2026-09-07,16:10:10,Cargill S.A. Punta Alvear,538011430,SOFIA,107.9,SanLorenzo
+2026-09-07,16:10:10,Petrobras - Oil Combustible,701006443,MAYU,158.4,SanLorenzo
+2026-09-07,16:10:10,Toepfer International Argentina S.r.l.,352006380,CL KIBOU,150.1,Rosario
+2026-09-07,16:10:10,Puerto San Lorenzo,352006388,NORSE BORNHOLM,99.8,Rosario
+2026-09-07,16:10:10,Cofco S.A.,636024379,STAR WESTPORT,143.5,Rosario
+2026-09-07,16:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,563065800,FLORA SCHULTE,229.9,Rosario
+2026-09-07,16:10:10,Unidad VI Servicios Portuarios S.A.,538010750,TOKYO SPIRIT,182.2,Rosario
+2026-09-07,16:10:10,Cargill S.A. Villa Gdor. Gálvez,701006901,,457.6,Rosario
+2026-09-07,16:10:10,ADM Agro Terminal El Tránsito,255916599,RANA,82.4,Rosario
+2026-09-07,16:10:10,Molinos Rí­o De La Plata,701001307,MAX DREAM,49.2,Rosario
+2026-09-07,16:10:10,Asociación de Cooperativas Argentina,352004948,OBE UNITY,201.6,Rosario
+2026-09-07,16:10:10,Molinos Rí­o De La Plata,357232000,YOZAN,370.3,Rosario
+2026-09-07,16:10:10,Aceitera General Deheza,538008779,LIVADI,228.1,Rosario
+2026-09-07,16:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,355174000,APOGEE SPIRIT,130.9,Rosario
+2026-09-07,16:10:10,Cargill S.A. Muelle Quebracho,636025133,YAMI BENEFIT,207.5,Rosario
+2026-09-07,16:10:10,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,151.9,Rosario
+2026-09-07,16:10:10,Cofco S.A.,701006396,VB RECOLETA,222.9,Rosario
+2026-09-07,16:10:10,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,98.8,Rosario
+2026-09-07,16:10:10,Cargill S.A. Punta Alvear,538011430,SOFIA,107.9,Rosario
+2026-09-07,16:10:10,Petrobras - Oil Combustible,701006443,MAYU,158.4,Rosario
+2026-09-07,16:10:10,Siderca S.A.,636019109,JY LAKE,417.7,DelGuazu
+2026-09-07,16:10:10,Puerto Zárate,311698000,MORNING CROWN,154.3,DelGuazu
+2026-09-07,16:10:10,R.h.a.s.a. - Pobater,701006318,MAMACOTA,159.3,DelGuazu
+2026-09-07,16:10:10,R.h.a.s.a. - Pobater,701006513,AMANCAY,158.9,DelGuazu
+2026-09-07,16:10:10,Esso S.a.p.a.,701006380,GUSTAVO U,426.1,DelGuazu
+2026-09-07,16:10:10,Maripasa S.A.,701006643,DON RAXYZ,207.3,DelGuazu
+2026-09-07,16:10:10,Esso S.a.p.a.,701006380,,425.8,Braga
+2026-09-07,16:10:10,R.h.a.s.a. - Pobater,701006318,,159.2,Braga
+2026-09-07,16:10:10,Puerto Dock Sud,352001682,ALFA C,195.1,Braga
+2026-09-07,16:10:10,Puerto Buenos Aires,755043000,AVA PAYAGUA,205.2,Braga
