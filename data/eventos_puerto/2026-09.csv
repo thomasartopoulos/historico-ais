@@ -10261,3 +10261,55 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-07,00:00:10,R.h.a.s.a. - Pobater,701006513,,159.4,Braga
 2026-09-07,00:00:10,Puerto Buenos Aires,755043000,AVA PAYAGUA,204.9,Braga
 2026-09-07,00:00:10,Puerto Barranqueras,701006277,RAP,460.5,BellaVista
+2026-09-07,00:10:09,Muelle Alumbrera,255915742,BOCHEM CASABLANCA,163.2,SanLorenzo
+2026-09-07,00:10:09,Molinos Rí­o De La Plata,352006096,PALEXPO,362.6,SanLorenzo
+2026-09-07,00:10:09,Terminal Chacabuco YPF,701001324,HALCON,116.0,SanLorenzo
+2026-09-07,00:10:09,Cofco S.A.,636024379,STAR WESTPORT,150.0,SanLorenzo
+2026-09-07,00:10:09,Aceitera General Deheza,538008779,LIVADI,241.9,SanLorenzo
+2026-09-07,00:10:09,Unidad VI Servicios Portuarios S.A.,538010750,TOKYO SPIRIT,182.1,SanLorenzo
+2026-09-07,00:10:09,Terminal 6 S.A. Muelle Sur,311000195,CS SARAFINA,137.9,SanLorenzo
+2026-09-07,00:10:09,Bunge - La Plata Cereal S.A.,636093258,EMMA JANNEKE,178.1,SanLorenzo
+2026-09-07,00:10:09,Toepfer International Argentina S.r.l.,563054100,MTM BIG APPLE,303.9,SanLorenzo
+2026-09-07,00:10:09,ADM Agro Terminal El Tránsito,255916599,RANA,88.0,SanLorenzo
+2026-09-07,00:10:09,Molinos Rí­o De La Plata,701001307,MAX DREAM,49.8,SanLorenzo
+2026-09-07,00:10:09,Toepfer International Argentina S.r.l.,701006354,PELICANO,239.0,SanLorenzo
+2026-09-07,00:10:09,Terminal 6 S.A. Muelle Norte,351011000,OCEAN CROWN,152.0,SanLorenzo
+2026-09-07,00:10:09,Central Termoeléctrica Timbués Renova,538006504,DANK SILVER,299.8,SanLorenzo
+2026-09-07,00:10:09,Bunge - La Plata Cereal S.A. Muelle Dempa,355174000,APOGEE SPIRIT,118.5,SanLorenzo
+2026-09-07,00:10:09,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,157.2,SanLorenzo
+2026-09-07,00:10:09,Terminal Chacabuco YPF,701153000,PAULINO C,91.0,SanLorenzo
+2026-09-07,00:10:09,Axion San Lorenzo,538009801,HELIOS,159.8,SanLorenzo
+2026-09-07,00:10:09,Cargill S.A. Muelle Quebracho,538008936,SOUND YOUNG,246.5,SanLorenzo
+2026-09-07,00:10:09,Puerto Diamante,701006803,ANTONIO PUGLIESE,450.2,SanLorenzo
+2026-09-07,00:10:09,Cargill S.A. Punta Alvear,538011430,SOFIA,107.3,SanLorenzo
+2026-09-07,00:10:09,Petrobras - Oil Combustible,701006443,MAYU,161.4,SanLorenzo
+2026-09-07,00:10:09,Cofco S.A.,701006396,VB RECOLETA,218.7,SanLorenzo
+2026-09-07,00:10:09,Terminal Chacabuco YPF,701153000,,93.4,Rosario
+2026-09-07,00:10:09,Molinos Rí­o De La Plata,352006096,PALEXPO,362.6,Rosario
+2026-09-07,00:10:09,Cofco S.A.,636024379,STAR WESTPORT,150.0,Rosario
+2026-09-07,00:10:09,Aceitera General Deheza,538008779,LIVADI,241.9,Rosario
+2026-09-07,00:10:09,Unidad VI Servicios Portuarios S.A.,538010750,TOKYO SPIRIT,182.1,Rosario
+2026-09-07,00:10:09,Bunge - La Plata Cereal S.A.,636093258,EMMA JANNEKE,178.1,Rosario
+2026-09-07,00:10:09,ADM Agro Terminal El Tránsito,255916599,RANA,88.0,Rosario
+2026-09-07,00:10:09,Terminal 6 S.A. Muelle Norte,351011000,,152.0,Rosario
+2026-09-07,00:10:09,Bunge - La Plata Cereal S.A. Muelle Dempa,355174000,APOGEE SPIRIT,118.5,Rosario
+2026-09-07,00:10:09,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,157.2,Rosario
+2026-09-07,00:10:09,Axion San Lorenzo,538009801,HELIOS,159.8,Rosario
+2026-09-07,00:10:09,Cargill S.A. Muelle Quebracho,538008936,SOUND YOUNG,246.5,Rosario
+2026-09-07,00:10:09,Cargill S.A. Punta Alvear,538011430,SOFIA,107.3,Rosario
+2026-09-07,00:10:09,Petrobras - Oil Combustible,701006443,MAYU,161.4,Rosario
+2026-09-07,00:10:09,Cofco S.A.,701006396,VB RECOLETA,218.7,Rosario
+2026-09-07,00:10:09,Siderca S.A.,636019109,JY LAKE,411.9,DelGuazu
+2026-09-07,00:10:09,Puerto San Pedro,538006286,ALBERTO TOPIC,105.7,DelGuazu
+2026-09-07,00:10:09,Puerto Zárate,311698000,MORNING CROWN,156.9,DelGuazu
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,701006318,MAMACOTA,158.6,DelGuazu
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,701006513,AMANCAY,160.7,DelGuazu
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,755201178,NUAR B.,323.4,DelGuazu
+2026-09-07,00:10:09,Puerto Zárate,311698000,,156.9,Braga
+2026-09-07,00:10:09,Puerto Buenos Aires,352004466,ASTURIANO III,340.9,Braga
+2026-09-07,00:10:09,Siderca S.A.,636019109,,411.9,Braga
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,701006318,,158.6,Braga
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,701006513,,160.0,Braga
+2026-09-07,00:10:09,R.h.a.s.a. - Pobater,755201178,NUAR B.,324.3,Braga
+2026-09-07,00:10:09,Puerto Buenos Aires,755043000,AVA PAYAGUA,205.0,Braga
+2026-09-07,00:10:09,Puerto Barranqueras,701006277,RAP,464.4,BellaVista
