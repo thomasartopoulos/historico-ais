@@ -26644,3 +26644,52 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-08,22:20:11,Euroamercia S.A.,248724000,,112.1,Braga
 2026-09-08,22:20:11,Terminal Zarate S.A.,247098900,,39.2,Braga
 2026-09-08,22:20:11,Puerto Dock Sud,636014262,SAN SAN H,184.4,Braga
+2026-09-08,22:30:13,Terminal Chacabuco YPF,701001324,HALCON,114.1,SanLorenzo
+2026-09-08,22:30:13,Vicentin S.A.I.C,636024670,STAR PISCES,160.4,SanLorenzo
+2026-09-08,22:30:13,Petrobras - Oil Combustible,755003887,MARIA A,166.3,SanLorenzo
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,636026119,EVAGELIA,374.1,SanLorenzo
+2026-09-08,22:30:13,Toepfer International Argentina S.r.l.,538009547,MEDITERRANEAN SPIRIT,158.9,SanLorenzo
+2026-09-08,22:30:13,Terminal 6 S.A. Muelle Norte,311016600,CS CAPRICE,154.4,SanLorenzo
+2026-09-08,22:30:13,Terminal Chacabuco YPF,701001307,MAX DREAM,97.1,SanLorenzo
+2026-09-08,22:30:13,ADM Agro Terminal El Tránsito,255916599,RANA,82.9,SanLorenzo
+2026-09-08,22:30:13,Cargill S.A. Punta Alvear,636023728,TAI STEADINESS,133.1,SanLorenzo
+2026-09-08,22:30:13,Aceitera General Deheza,636023256,INGENUITY,225.7,SanLorenzo
+2026-09-08,22:30:13,Bunge - La Plata Cereal S.A. Muelle Dempa,636015971,STOLT ZULU,72.0,SanLorenzo
+2026-09-08,22:30:13,Cargill S.A. Villa Gdor. Gálvez,538010532,DEANA,309.0,SanLorenzo
+2026-09-08,22:30:13,Terminal 6 S.A. Muelle Sur,257897000,BOW FIRDA,114.1,SanLorenzo
+2026-09-08,22:30:13,Central Termoeléctrica Timbués Renova,538090690,LEONARDO,149.4,SanLorenzo
+2026-09-08,22:30:13,Cargill S.A. Muelle Quebracho,636025133,YAMI BENEFIT,208.1,SanLorenzo
+2026-09-08,22:30:13,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,156.7,SanLorenzo
+2026-09-08,22:30:13,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636024066,K BEREKET,217.0,SanLorenzo
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,755120000,YERUTI I,97.8,SanLorenzo
+2026-09-08,22:30:13,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,103.8,SanLorenzo
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,701006675,CAMPEADOR,201.5,SanLorenzo
+2026-09-08,22:30:13,Cargill S.A. Villa Gdor. Gálvez,538010532,DEANA,305.0,Rosario
+2026-09-08,22:30:13,Vicentin S.A.I.C,636024670,STAR PISCES,160.4,Rosario
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,636026119,EVAGELIA,374.1,Rosario
+2026-09-08,22:30:13,Toepfer International Argentina S.r.l.,538009547,MEDITERRANEAN SPIRIT,158.9,Rosario
+2026-09-08,22:30:13,Terminal Chacabuco YPF,701001307,MAX DREAM,97.1,Rosario
+2026-09-08,22:30:13,ADM Agro Terminal El Tránsito,255916599,RANA,82.9,Rosario
+2026-09-08,22:30:13,Cargill S.A. Punta Alvear,636023728,TAI STEADINESS,133.1,Rosario
+2026-09-08,22:30:13,Aceitera General Deheza,636023256,INGENUITY,225.7,Rosario
+2026-09-08,22:30:13,Bunge - La Plata Cereal S.A. Muelle Dempa,636015971,STOLT ZULU,72.0,Rosario
+2026-09-08,22:30:13,Central Termoeléctrica Timbués Renova,538090690,LEONARDO,149.4,Rosario
+2026-09-08,22:30:13,Cargill S.A. Muelle Quebracho,636025133,YAMI BENEFIT,208.1,Rosario
+2026-09-08,22:30:13,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,156.7,Rosario
+2026-09-08,22:30:13,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636024066,,217.0,Rosario
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,755120000,YERUTI I,97.8,Rosario
+2026-09-08,22:30:13,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,103.8,Rosario
+2026-09-08,22:30:13,Molinos Rí­o De La Plata,701006675,CAMPEADOR,201.5,Rosario
+2026-09-08,22:30:13,Puerto Villa Constitución Unidad II,701006679,COOPOR ESTIBADOR I,72.3,Rosario
+2026-09-08,22:30:13,Siderca S.A.,636019109,JY LAKE,411.1,DelGuazu
+2026-09-08,22:30:13,Terminal Zarate S.A.,247098900,GRANDE AMBURGO,38.6,DelGuazu
+2026-09-08,22:30:13,Euroamercia S.A.,248724000,STRANDJA,114.2,DelGuazu
+2026-09-08,22:30:13,Maripasa S.A.,538009801,HELIOS,178.0,DelGuazu
+2026-09-08,22:30:13,R.h.a.s.a. - Pobater,701006513,AMANCAY,159.5,DelGuazu
+2026-09-08,22:30:13,Euroamercia S.A.,248724000,,113.8,Braga
+2026-09-08,22:30:13,Siderca S.A.,636019109,,411.1,Braga
+2026-09-08,22:30:13,Terminal Zarate S.A.,247098900,,38.6,Braga
+2026-09-08,22:30:13,Puerto Buenos Aires,701006423,DIAGUITA,424.4,Braga
+2026-09-08,22:30:13,Puerto Dock Sud,636014262,SAN SAN H,185.7,Braga
+2026-09-08,22:30:13,Puerto Buenos Aires,755043000,AVA PAYAGUA,465.4,Braga
+2026-09-08,22:30:13,Puerto Buenos Aires,701104000,ARGENTINOII,401.7,Braga
