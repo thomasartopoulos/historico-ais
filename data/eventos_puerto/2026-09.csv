@@ -47197,3 +47197,56 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-10,18:00:14,Euroamercia S.A.,248724000,STRANDJA,111.9,DelGuazu
 2026-09-10,18:00:14,Esso S.a.p.a.,636023977,PAPUA,425.7,DelGuazu
 2026-09-10,18:00:14,Puerto Buenos Aires,701104000,ARGENTINOII,384.3,Braga
+2026-09-10,18:10:10,Cargill S.A. Punta Alvear,701006245,,474.3,SanLorenzo
+2026-09-10,18:10:10,Shell C.a.p.s.a.,701124000,,175.0,SanLorenzo
+2026-09-10,18:10:10,Central Termoeléctrica Timbués Renova,538007674,ES JASMINE,284.5,SanLorenzo
+2026-09-10,18:10:10,Cofco Internacional Argentina S.A.,212026000,AGIOS KONSTANTINOS,158.9,SanLorenzo
+2026-09-10,18:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,255915742,BOCHEM CASABLANCA,74.9,SanLorenzo
+2026-09-10,18:10:10,Cofco S.A.,701006675,CAMPEADOR,398.0,SanLorenzo
+2026-09-10,18:10:10,Terminal Chacabuco YPF,701001324,HALCON,115.0,SanLorenzo
+2026-09-10,18:10:10,Terminal 6 S.A. Muelle Norte,538006458,ODYSSEUS N,175.9,SanLorenzo
+2026-09-10,18:10:10,Cofco S.A.,636022638,MAGMA INTEGRITY,158.6,SanLorenzo
+2026-09-10,18:10:10,Cargill S.A. Muelle Quebracho,477168600,SELO,203.8,SanLorenzo
+2026-09-10,18:10:10,A.c.a. Coop. Ltda.,205392000,GOLDEN DAISY,102.8,SanLorenzo
+2026-09-10,18:10:10,Asociación de Cooperativas Argentina,538009372,JAL KALP,196.8,SanLorenzo
+2026-09-10,18:10:10,Toepfer International Argentina S.r.l.,538008393,SM SAMCHEONPO,165.6,SanLorenzo
+2026-09-10,18:10:10,Terminal 6 S.A. Muelle Sur,319156500,AKOUR II,146.8,SanLorenzo
+2026-09-10,18:10:10,Petrobras - Oil Combustible,701138000,POLARIS,162.5,SanLorenzo
+2026-09-10,18:10:10,Aceitera General Deheza,351427000,ILIA,229.7,SanLorenzo
+2026-09-10,18:10:10,Cargill S.A. Villa Gdor. Gálvez,352001125,,308.3,SanLorenzo
+2026-09-10,18:10:10,Central Termoeléctrica Timbués Renova,538090690,LEONARDO,150.3,SanLorenzo
+2026-09-10,18:10:10,Bunge - La Plata Cereal S.A.,636026435,TAI KNOWLEDGE,209.0,SanLorenzo
+2026-09-10,18:10:10,Terminal Chacabuco YPF,701001114,IGUAZU,117.6,SanLorenzo
+2026-09-10,18:10:10,Louis Dreyfus y Cia. Ltda. Timbúes,312536000,SOFIA,346.6,SanLorenzo
+2026-09-10,18:10:10,Cofco S.A.,229659000,VEZHEN,420.6,SanLorenzo
+2026-09-10,18:10:10,Molinos Rí­o De La Plata,352006096,PALEXPO,363.1,SanLorenzo
+2026-09-10,18:10:10,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,159.0,SanLorenzo
+2026-09-10,18:10:10,Terminal 6 S.A. Muelle Norte,538006458,ODYSSEUS N,176.1,Rosario
+2026-09-10,18:10:10,Cofco Internacional Argentina S.A.,212026000,AGIOS KONSTANTINOS,158.9,Rosario
+2026-09-10,18:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,255915742,BOCHEM CASABLANCA,74.9,Rosario
+2026-09-10,18:10:10,Cofco S.A.,701006675,CAMPEADOR,398.0,Rosario
+2026-09-10,18:10:10,A.c.a. Coop. Ltda.,205392000,GOLDEN DAISY,102.8,Rosario
+2026-09-10,18:10:10,Cofco S.A.,636022638,MAGMA INTEGRITY,158.6,Rosario
+2026-09-10,18:10:10,Cargill S.A. Muelle Quebracho,477168600,SELO,203.8,Rosario
+2026-09-10,18:10:10,Asociación de Cooperativas Argentina,538009372,JAL KALP,196.8,Rosario
+2026-09-10,18:10:10,Toepfer International Argentina S.r.l.,538008393,SM SAMCHEONPO,165.6,Rosario
+2026-09-10,18:10:10,Petrobras - Oil Combustible,701138000,,162.5,Rosario
+2026-09-10,18:10:10,Cargill S.A. Villa Gdor. Gálvez,352001125,ULTRA OSORNO,308.3,Rosario
+2026-09-10,18:10:10,Central Termoeléctrica Timbués Renova,538090690,,150.3,Rosario
+2026-09-10,18:10:10,Bunge - La Plata Cereal S.A.,636026435,TAI KNOWLEDGE,209.0,Rosario
+2026-09-10,18:10:10,Cargill S.A. Punta Alvear,701006245,SAN JOSE V,472.3,Rosario
+2026-09-10,18:10:10,Puerto Villa Constitución Unidad II,701006679,COOPOR ESTIBADOR I,70.0,Rosario
+2026-09-10,18:10:10,Louis Dreyfus y Cia. Ltda. Timbúes,312536000,SOFIA,346.6,Rosario
+2026-09-10,18:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,701006612,320 RIO PILCOMAYO,182.7,Rosario
+2026-09-10,18:10:10,Cofco S.A.,229659000,VEZHEN,420.6,Rosario
+2026-09-10,18:10:10,Molinos Rí­o De La Plata,352006096,PALEXPO,363.1,Rosario
+2026-09-10,18:10:10,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,159.0,Rosario
+2026-09-10,18:10:10,Terminal Zarate S.A.,247098900,GRANDE AMBURGO,67.1,DelGuazu
+2026-09-10,18:10:10,Maripasa S.A.,755003887,MARIA A,198.1,DelGuazu
+2026-09-10,18:10:10,Siderca S.A.,636019109,JY LAKE,408.7,DelGuazu
+2026-09-10,18:10:10,R.h.a.s.a. - Pobater,538009801,HELIOS,352.3,DelGuazu
+2026-09-10,18:10:10,Vitco S.A.,372905000,SILVER GERTRUDE,182.0,DelGuazu
+2026-09-10,18:10:10,Euroamercia S.A.,248724000,STRANDJA,113.7,DelGuazu
+2026-09-10,18:10:10,R.h.a.s.a. - Pobater,701006318,MAMACOTA,156.8,DelGuazu
+2026-09-10,18:10:10,Esso S.a.p.a.,636023977,PAPUA,424.4,DelGuazu
+2026-09-10,18:10:10,Puerto Buenos Aires,701104000,ARGENTINOII,386.8,Braga
