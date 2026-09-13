@@ -67185,3 +67185,51 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-13,00:40:09,Puerto Buenos Aires,701104000,ARGENTINOII,386.9,Braga
 2026-09-13,00:40:09,Terminal Zarate S.A.,372981000,,332.2,Braga
 2026-09-13,00:40:09,Puerto Dock Sud,352001682,ALFA C,486.0,Braga
+2026-09-13,00:50:12,Puerto Villa Constitución Unidad II,636023924,ELIKI,169.6,SanLorenzo
+2026-09-13,00:50:12,Arauco Argentina S.A.,636015589,,56.1,SanLorenzo
+2026-09-13,00:50:12,Unidad VI Servicios Portuarios S.A.,636013113,CHAMPION BALTIC,149.8,SanLorenzo
+2026-09-13,00:50:12,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,162.0,SanLorenzo
+2026-09-13,00:50:12,Puerto San Lorenzo,477945900,KANDY,93.6,SanLorenzo
+2026-09-13,00:50:12,Terminal 6 S.A. Muelle Norte,636023897,ANNELIESE,163.3,SanLorenzo
+2026-09-13,00:50:12,Vicentin S.A.I.C,311002230,PVT PERIDOT,165.6,SanLorenzo
+2026-09-13,00:50:12,Terminal 6 S.A. Muelle Sur,538004740,MAPLE STAR,145.4,SanLorenzo
+2026-09-13,00:50:12,Terminal Chacabuco YPF,701001307,MAX DREAM,94.6,SanLorenzo
+2026-09-13,00:50:12,Cofco Internacional Argentina S.A.,636015849,MYKONOS SEAS,156.1,SanLorenzo
+2026-09-13,00:50:12,Asociación de Cooperativas Argentina,538008454,PRAETORIUS,199.8,SanLorenzo
+2026-09-13,00:50:12,Toepfer International Argentina S.r.l.,257897000,BOW FIRDA,302.9,SanLorenzo
+2026-09-13,00:50:12,Central Termoeléctrica Timbués Renova,311000358,BTG DENALI,261.0,SanLorenzo
+2026-09-13,00:50:12,Central Termoeléctrica Timbués Renova,636026556,TOP GRACE,153.9,SanLorenzo
+2026-09-13,00:50:12,Louis Dreyfus y Cia. Ltda. Timbúes,636018306,PRIMUS,348.8,SanLorenzo
+2026-09-13,00:50:12,Cargill S.A. Villa Gdor. Gálvez,352006388,NORSE BORNHOLM,318.8,SanLorenzo
+2026-09-13,00:50:12,Terminal Chacabuco YPF,701001057,VALENTINA H,131.3,SanLorenzo
+2026-09-13,00:50:12,Puerto Rosario S.A. Terminal 2,720915000,IB PARAGUAY,179.1,SanLorenzo
+2026-09-13,00:50:12,Molinos Rí­o De La Plata,314738000,F LINE,362.7,SanLorenzo
+2026-09-13,00:50:12,Terminal Chacabuco YPF,701001114,IGUAZU,113.1,SanLorenzo
+2026-09-13,00:50:12,Terminal Chacabuco YPF,701001324,HALCON,111.4,SanLorenzo
+2026-09-13,00:50:12,Cofco S.A.,563169600,CRYSTAL,150.2,SanLorenzo
+2026-09-13,00:50:12,Zona Franca Paraguaya,701006161,MIRADOR,49.2,SanLorenzo
+2026-09-13,00:50:12,Puerto Diamante,701006803,ANTONIO PUGLIESE,448.1,SanLorenzo
+2026-09-13,00:50:12,Petrobras - Oil Combustible,701006443,MAYU,161.2,SanLorenzo
+2026-09-13,00:50:12,Molinos Rí­o De La Plata,701006411,ZONDA I,118.4,SanLorenzo
+2026-09-13,00:50:12,Molinos Rí­o De La Plata,314738000,F LINE,362.5,Rosario
+2026-09-13,00:50:12,Zona Franca Paraguaya,701006161,MIRADOR,37.2,Rosario
+2026-09-13,00:50:12,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,162.0,Rosario
+2026-09-13,00:50:12,Puerto San Lorenzo,477945900,KANDY,93.6,Rosario
+2026-09-13,00:50:12,Cargill S.A. Villa Gdor. Gálvez,352006388,NORSE BORNHOLM,318.8,Rosario
+2026-09-13,00:50:12,Puerto Rosario S.A. Terminal 2,720915000,IB PARAGUAY,179.1,Rosario
+2026-09-13,00:50:12,Petrobras - Oil Combustible,701006443,MAYU,161.2,Rosario
+2026-09-13,00:50:12,Molinos Rí­o De La Plata,701006411,ZONDA I,118.4,Rosario
+2026-09-13,00:50:12,Molca S.A. Terminal Las Palmas,352006096,PALEXPO,167.1,DelGuazu
+2026-09-13,00:50:12,Terminal Zarate S.A.,563242400,SINAR SUMATERA,77.5,DelGuazu
+2026-09-13,00:50:12,Euroamercia S.A.,248724000,STRANDJA,107.5,DelGuazu
+2026-09-13,00:50:12,Terminal Zarate S.A.,477624900,COSCO SHIPPING GLORY,121.5,DelGuazu
+2026-09-13,00:50:12,Terminal Zarate S.A.,372981000,BOSPORUS HIGHWAY,331.6,DelGuazu
+2026-09-13,00:50:12,Esso S.a.p.a.,636023977,PAPUA,395.3,DelGuazu
+2026-09-13,00:50:12,Terminal Zarate S.A.,477624900,,118.8,Braga
+2026-09-13,00:50:12,Esso S.a.p.a.,636023977,,397.4,Braga
+2026-09-13,00:50:12,Molca S.A. Terminal Las Palmas,352006096,,167.4,Braga
+2026-09-13,00:50:12,Terminal Zarate S.A.,563242400,,79.4,Braga
+2026-09-13,00:50:12,Puerto Dock Sud,701124000,JULIO A,198.5,Braga
+2026-09-13,00:50:12,Puerto Buenos Aires,701104000,ARGENTINOII,384.2,Braga
+2026-09-13,00:50:12,Terminal Zarate S.A.,372981000,,331.6,Braga
+2026-09-13,00:50:12,R.h.a.s.a. - Pobater,701006318,MAMACOTA,154.9,Braga
