@@ -93778,3 +93778,55 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-15,21:50:10,Vitco S.A.,701006411,ZONDA I,176.8,DelGuazu
 2026-09-15,21:50:10,Maripasa S.A.,701006643,DON RAXYZ,214.1,DelGuazu
 2026-09-15,21:50:10,Puerto Buenos Aires,701104000,ARGENTINOII,388.1,Braga
+2026-09-15,22:00:18,Cargill S.A. Villa Gdor. Gálvez,563054100,,309.3,SanLorenzo
+2026-09-15,22:00:18,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,351251000,WATER LILY,226.1,SanLorenzo
+2026-09-15,22:00:18,Puerto Rosario S. A. Terminal 1,636025361,MSC RUTH F,90.5,SanLorenzo
+2026-09-15,22:00:18,Arauco Argentina S.A.,563107700,MTM KEY WEST,81.6,SanLorenzo
+2026-09-15,22:00:18,Cofco Internacional Argentina S.A.,636024043,TG CRAB,421.1,SanLorenzo
+2026-09-15,22:00:18,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,155.6,SanLorenzo
+2026-09-15,22:00:18,Terminal 6 S.A. Muelle Norte,636015790,TRITON,175.4,SanLorenzo
+2026-09-15,22:00:18,Shell C.a.p.s.a.,701124000,JULIO A,178.7,SanLorenzo
+2026-09-15,22:00:18,Terminal Chacabuco YPF,701001114,IGUAZU,119.6,SanLorenzo
+2026-09-15,22:00:18,Unidad VI Servicios Portuarios S.A.,352001125,,187.8,SanLorenzo
+2026-09-15,22:00:18,Terminal Chacabuco YPF,755079000,DR.SALGADO H,128.7,SanLorenzo
+2026-09-15,22:00:18,Cofco S.A.,210828000,CAPTAIN GEORGE,163.1,SanLorenzo
+2026-09-15,22:00:18,Cargill S.A. Muelle Quebracho,210669000,UMEA,200.1,SanLorenzo
+2026-09-15,22:00:18,Cofco S.A.,477945900,KANDY,447.9,SanLorenzo
+2026-09-15,22:00:18,Cofco Internacional Argentina S.A.,636025939,NANAMI BRIGHT,143.1,SanLorenzo
+2026-09-15,22:00:18,Terminal 6 S.A. Muelle Sur,248003000,GUZIDE,125.6,SanLorenzo
+2026-09-15,22:00:18,Bunge - La Plata Cereal S.A.,255806487,NORDULTRA,180.0,SanLorenzo
+2026-09-15,22:00:18,Asociación de Cooperativas Argentina,312791000,MERAIO,200.2,SanLorenzo
+2026-09-15,22:00:18,Axion San Lorenzo,538009801,HELIOS,158.6,SanLorenzo
+2026-09-15,22:00:18,Molinos Rí­o De La Plata,538010773,EQUINOX SOFRANO,370.0,SanLorenzo
+2026-09-15,22:00:18,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,82.2,SanLorenzo
+2026-09-15,22:00:18,Central Termoeléctrica Timbués Renova,701001423,GRISEL N,143.2,SanLorenzo
+2026-09-15,22:00:18,Molinos Rí­o De La Plata,755007000,KARAI GUASU,107.1,SanLorenzo
+2026-09-15,22:00:18,Petrobras - Oil Combustible,701006443,MAYU,163.2,SanLorenzo
+2026-09-15,22:00:18,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,351251000,WATER LILY,226.1,Rosario
+2026-09-15,22:00:18,Cofco Internacional Argentina S.A.,636024043,TG CRAB,421.1,Rosario
+2026-09-15,22:00:18,Unidad VI Servicios Portuarios S.A.,538012594,KAPETANIOS,155.6,Rosario
+2026-09-15,22:00:18,Puerto Villa Constitución Unidad II,636023924,ELIKI,173.9,Rosario
+2026-09-15,22:00:18,Unidad VI Servicios Portuarios S.A.,352001125,ULTRA OSORNO,187.8,Rosario
+2026-09-15,22:00:18,Puerto Villa Constitución Unidad II,701006242,JILGUERO 1,306.9,Rosario
+2026-09-15,22:00:18,Cofco S.A.,210828000,CAPTAIN GEORGE,163.1,Rosario
+2026-09-15,22:00:18,Cargill S.A. Muelle Quebracho,210669000,UMEA,200.1,Rosario
+2026-09-15,22:00:18,Puerto Rosario S. A. Terminal 1,636025361,MSC RUTH F,92.9,Rosario
+2026-09-15,22:00:18,Cofco Internacional Argentina S.A.,636025939,NANAMI BRIGHT,143.1,Rosario
+2026-09-15,22:00:18,Bunge - La Plata Cereal S.A.,255806487,NORDULTRA,180.0,Rosario
+2026-09-15,22:00:18,Axion San Lorenzo,538009801,HELIOS,158.6,Rosario
+2026-09-15,22:00:18,Molinos Rí­o De La Plata,538010773,EQUINOX SOFRANO,370.0,Rosario
+2026-09-15,22:00:18,Yeruvá S.A.,701006297,ANTONIO MARIA FERRO,82.2,Rosario
+2026-09-15,22:00:18,Molinos Rí­o De La Plata,755007000,KARAI GUASU,107.1,Rosario
+2026-09-15,22:00:18,Puerto Rosario S.A. Terminal 2,701006742,DON JUAN N,220.2,Rosario
+2026-09-15,22:00:18,Petrobras - Oil Combustible,701006443,MAYU,163.2,Rosario
+2026-09-15,22:00:18,Puerto Buenos Aires,701104000,,386.6,DelGuazu
+2026-09-15,22:00:18,Molca S.A. Terminal Las Palmas,538011031,CATHERINE,149.1,DelGuazu
+2026-09-15,22:00:18,Terminal Portuaria Del Guazú,352383000,ANHUI,359.2,DelGuazu
+2026-09-15,22:00:18,Delta Dock S.A.,356073000,BRASILIA HIGHWAY,349.9,DelGuazu
+2026-09-15,22:00:18,Euroamercia S.A.,305775000,BORSUM,212.5,DelGuazu
+2026-09-15,22:00:18,Maripasa S.A.,701125000,DANIEL F,178.2,DelGuazu
+2026-09-15,22:00:18,Siderca S.A.,210777000,ZETA P.,381.2,DelGuazu
+2026-09-15,22:00:18,Esso S.a.p.a.,701137000,PUNTA PIRAMIDES,197.6,DelGuazu
+2026-09-15,22:00:18,Maripasa S.A.,701006643,DON RAXYZ,216.3,DelGuazu
+2026-09-15,22:00:18,Vitco S.A.,701006411,ZONDA I,174.8,DelGuazu
+2026-09-15,22:00:18,Puerto Buenos Aires,701104000,ARGENTINOII,387.6,Braga
