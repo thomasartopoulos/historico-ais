@@ -165204,3 +165204,57 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-23,00:10:09,Terminal Zarate S.A.,256488000,,370.9,Braga
 2026-09-23,00:10:09,Puerto Dock Sud,248791000,AYANE,177.8,Braga
 2026-09-23,00:10:09,Puerto Barranqueras,701001057,VALENTINA H,458.7,BellaVista
+2026-09-23,00:20:10,Unidad VII Servicios Portuarios S.A.,246866000,,102.4,SanLorenzo
+2026-09-23,00:20:10,Arauco Argentina S.A.,215078000,ELDIA,68.3,SanLorenzo
+2026-09-23,00:20:10,Petrobras - Oil Combustible,701138000,POLARIS,162.0,SanLorenzo
+2026-09-23,00:20:10,Vicentin S.A.I.C,352006728,TIVY GOLD,196.8,SanLorenzo
+2026-09-23,00:20:10,Bunge - La Plata Cereal S.A.,538011388,SSI FORMIDABLE II,173.2,SanLorenzo
+2026-09-23,00:20:10,Central Termoeléctrica Timbués Renova,352003302,LOWLANDS PATRASCHE,158.6,SanLorenzo
+2026-09-23,00:20:10,Cofco S.A.,538012438,WELLNESS DIVA,402.9,SanLorenzo
+2026-09-23,00:20:10,Puerto Rosario S. A. Terminal 1,636025361,MSC RUTH F,87.1,SanLorenzo
+2026-09-23,00:20:10,Axion San Lorenzo,538009801,HELIOS,161.3,SanLorenzo
+2026-09-23,00:20:10,Terminal Chacabuco YPF,701001324,HALCON,115.8,SanLorenzo
+2026-09-23,00:20:10,Terminal 6 S.A. Muelle Sur,538009071,ROMY,134.8,SanLorenzo
+2026-09-23,00:20:10,Unidad VI Servicios Portuarios S.A.,538007659,DISCOVERER,208.4,SanLorenzo
+2026-09-23,00:20:10,ADM Agro Terminal El Tránsito,563150800,SALLY,92.1,SanLorenzo
+2026-09-23,00:20:10,Cofco Internacional Argentina S.A.,636022769,TURBO S,144.3,SanLorenzo
+2026-09-23,00:20:10,Cargill S.A. Villa Gdor. Gálvez,352005335,ULTRA SAN PEDRO,309.6,SanLorenzo
+2026-09-23,00:20:10,Aceitera General Deheza,311001554,UNITY HARMONY,229.3,SanLorenzo
+2026-09-23,00:20:10,Toepfer International Argentina S.r.l.,414722000,SHI DAI 9,150.1,SanLorenzo
+2026-09-23,00:20:10,Terminal 6 S.A. Muelle Norte,352001364,BUFFLEHEAD,161.7,SanLorenzo
+2026-09-23,00:20:10,Cofco S.A.,538011061,EVITA,145.6,SanLorenzo
+2026-09-23,00:20:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,248457000,VENEZIA,223.6,SanLorenzo
+2026-09-23,00:20:10,Terminal Chacabuco YPF,701001114,IGUAZU,119.7,SanLorenzo
+2026-09-23,00:20:10,Terminal Chacabuco YPF,701001307,MAX DREAM,99.1,SanLorenzo
+2026-09-23,00:20:10,Asociación de Cooperativas Argentina,538009751,GENCO LADDEY,201.6,SanLorenzo
+2026-09-23,00:20:10,Zona Franca Paraguaya,701006670,BRUTUS,61.9,SanLorenzo
+2026-09-23,00:20:10,Puerto Rosario,701001404,GUAZU PUCU,207.2,SanLorenzo
+2026-09-23,00:20:10,Axion San Lorenzo,538009801,HELIOS,161.5,Rosario
+2026-09-23,00:20:10,Aceitera General Deheza,311001554,,228.0,Rosario
+2026-09-23,00:20:10,Vicentin S.A.I.C,352006728,TIVY GOLD,196.8,Rosario
+2026-09-23,00:20:10,Bunge - La Plata Cereal S.A.,538011388,SSI FORMIDABLE II,173.2,Rosario
+2026-09-23,00:20:10,Cofco S.A.,538012438,WELLNESS DIVA,402.9,Rosario
+2026-09-23,00:20:10,Puerto Rosario S. A. Terminal 1,636025361,MSC RUTH F,87.1,Rosario
+2026-09-23,00:20:10,Unidad VII Servicios Portuarios S.A.,246866000,HANZE GENDT,100.6,Rosario
+2026-09-23,00:20:10,Unidad VI Servicios Portuarios S.A.,538007659,DISCOVERER,208.4,Rosario
+2026-09-23,00:20:10,ADM Agro Terminal El Tránsito,563150800,SALLY,92.1,Rosario
+2026-09-23,00:20:10,Cofco Internacional Argentina S.A.,636022769,TURBO S,144.3,Rosario
+2026-09-23,00:20:10,Cargill S.A. Villa Gdor. Gálvez,352005335,ULTRA SAN PEDRO,309.6,Rosario
+2026-09-23,00:20:10,Toepfer International Argentina S.r.l.,414722000,SHI DAI 9,150.1,Rosario
+2026-09-23,00:20:10,Cofco S.A.,538011061,EVITA,145.6,Rosario
+2026-09-23,00:20:10,Terminal Chacabuco YPF,701001307,,99.1,Rosario
+2026-09-23,00:20:10,Asociación de Cooperativas Argentina,538009751,GENCO LADDEY,201.6,Rosario
+2026-09-23,00:20:10,Zona Franca Paraguaya,701006670,BRUTUS,61.9,Rosario
+2026-09-23,00:20:10,Puerto Rosario,701001404,GUAZU PUCU,207.2,Rosario
+2026-09-23,00:20:10,Carboclor S.A.,372092000,TRIGON TRADER,112.9,DelGuazu
+2026-09-23,00:20:10,Puerto Zárate,701006448,ALPHAMAR II,30.7,DelGuazu
+2026-09-23,00:20:10,Maripasa S.A.,755003887,MARIA A,314.3,DelGuazu
+2026-09-23,00:20:10,R.h.a.s.a. - Pobater,701006245,SAN JOSE V,135.3,DelGuazu
+2026-09-23,00:20:10,Maripasa S.A.,755127000,NAPO H,190.2,DelGuazu
+2026-09-23,00:20:10,Vitco S.A.,755004433,SHEILA J,131.8,DelGuazu
+2026-09-23,00:20:10,R.h.a.s.a. - Pobater,701006318,MAMACOTA,158.1,DelGuazu
+2026-09-23,00:20:10,Carboclor S.A.,372092000,,114.8,Braga
+2026-09-23,00:20:10,R.h.a.s.a. - Pobater,701006318,,157.9,Braga
+2026-09-23,00:20:10,Terminal Zarate S.A.,256488000,,370.9,Braga
+2026-09-23,00:20:10,Puerto Dock Sud,248791000,AYANE,177.8,Braga
+2026-09-23,00:20:10,Puerto Barranqueras,701001057,VALENTINA H,460.1,BellaVista
