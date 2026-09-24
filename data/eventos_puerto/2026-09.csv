@@ -176480,3 +176480,70 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-09-24,04:30:12,Terminal Zarate S.A.,256488000,,370.9,Braga
 2026-09-24,04:30:12,Puerto Dock Sud,248791000,AYANE,177.8,Braga
 2026-09-24,04:30:12,Puerto Barranqueras,701006277,RAP,459.0,BellaVista
+2026-09-24,04:40:09,Shell C.a.p.s.a.,701006760,ALBERTO V,191.7,SanLorenzo
+2026-09-24,04:40:09,Muelle Alumbrera,372905000,,177.3,SanLorenzo
+2026-09-24,04:40:09,Cofco S.A.,538009967,THRASYVOULOS V,139.9,SanLorenzo
+2026-09-24,04:40:09,Puerto San Nicolás,311032500,MACURU ARROW,302.0,SanLorenzo
+2026-09-24,04:40:09,Louis Dreyfus y Cia. Ltda. Timbúes,248457000,VENEZIA,355.0,SanLorenzo
+2026-09-24,04:40:09,Central Termoeléctrica Timbués Renova,636025692,ERMOUPOLIS,283.5,SanLorenzo
+2026-09-24,04:40:09,Cofco S.A.,538012438,WELLNESS DIVA,399.7,SanLorenzo
+2026-09-24,04:40:09,Molinos Rí­o De La Plata,701001307,MAX DREAM,50.2,SanLorenzo
+2026-09-24,04:40:09,Terminal 6 S.A. Muelle Norte,636026283,29 EKIM,170.8,SanLorenzo
+2026-09-24,04:40:09,Toepfer International Argentina S.r.l.,701006317,,250.9,SanLorenzo
+2026-09-24,04:40:09,Axion San Lorenzo,538009801,HELIOS,156.9,SanLorenzo
+2026-09-24,04:40:09,Molinos Rí­o De La Plata,205804000,BOCHEM LUXEMBOURG,416.0,SanLorenzo
+2026-09-24,04:40:09,Unidad VII Servicios Portuarios S.A.,246866000,HANZE GENDT,96.3,SanLorenzo
+2026-09-24,04:40:09,Puerto Rosario S. A. Terminal 1,636021715,VANTAGE COMO,70.2,SanLorenzo
+2026-09-24,04:40:09,Toepfer International Argentina S.r.l.,210777000,ZETA P.,169.9,SanLorenzo
+2026-09-24,04:40:09,ADM Agro Terminal El Tránsito,563150800,SALLY,91.1,SanLorenzo
+2026-09-24,04:40:09,Cargill S.A. Muelle Quebracho,636020768,SAKIZAYA VICTORY,218.9,SanLorenzo
+2026-09-24,04:40:09,Puerto Villa Constitución Unidad II,701006679,COOPOR ESTIBADOR I,75.2,SanLorenzo
+2026-09-24,04:40:09,Terminal Chacabuco YPF,701001324,HALCON,116.9,SanLorenzo
+2026-09-24,04:40:09,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636024600,PACIFIC STAR,227.6,SanLorenzo
+2026-09-24,04:40:09,Bunge - La Plata Cereal S.A. Muelle Dempa,538007659,DISCOVERER,130.3,SanLorenzo
+2026-09-24,04:40:09,ADM Agro Terminal El Tránsito,701006740,GUILLERMO C,383.9,SanLorenzo
+2026-09-24,04:40:09,Mosaic S.A. Muelle De Fertilizantes,352003693,ULTRA LANIN,175.5,SanLorenzo
+2026-09-24,04:40:09,Asociación de Cooperativas Argentina,538009751,GENCO LADDEY,203.2,SanLorenzo
+2026-09-24,04:40:09,Puerto San Nicolás,477142400,,72.7,SanLorenzo
+2026-09-24,04:40:09,Zona Franca Boliviana,645181000,DN67,168.1,SanLorenzo
+2026-09-24,04:40:09,Siderar S.A. Muelle Cerealero,755088000,DECATUR LADY,240.4,SanLorenzo
+2026-09-24,04:40:09,Servicios Portuarios - Unidad I,701006242,JILGUERO 1,220.4,SanLorenzo
+2026-09-24,04:40:09,Molinos Rí­o De La Plata,701001307,MAX DREAM,51.1,Rosario
+2026-09-24,04:40:09,Axion San Lorenzo,538009801,HELIOS,157.8,Rosario
+2026-09-24,04:40:09,Cofco S.A.,538009967,THRASYVOULOS V,139.9,Rosario
+2026-09-24,04:40:09,Puerto San Nicolás,311032500,MACURU ARROW,302.0,Rosario
+2026-09-24,04:40:09,Louis Dreyfus y Cia. Ltda. Timbúes,248457000,VENEZIA,355.0,Rosario
+2026-09-24,04:40:09,Central Termoeléctrica Timbués Renova,636025692,ERMOUPOLIS,283.5,Rosario
+2026-09-24,04:40:09,Cofco S.A.,538012438,WELLNESS DIVA,399.7,Rosario
+2026-09-24,04:40:09,Terminal 6 S.A. Muelle Norte,636026283,29 EKIM,170.8,Rosario
+2026-09-24,04:40:09,Molinos Rí­o De La Plata,205804000,BOCHEM LUXEMBOURG,416.0,Rosario
+2026-09-24,04:40:09,Unidad VII Servicios Portuarios S.A.,246866000,HANZE GENDT,96.3,Rosario
+2026-09-24,04:40:09,Puerto Rosario S. A. Terminal 1,636021715,VANTAGE COMO,70.2,Rosario
+2026-09-24,04:40:09,Puerto Villa Constitución Unidad III,701006107,BENICIO S,112.5,Rosario
+2026-09-24,04:40:09,Toepfer International Argentina S.r.l.,210777000,ZETA P.,169.9,Rosario
+2026-09-24,04:40:09,ADM Agro Terminal El Tránsito,563150800,SALLY,91.1,Rosario
+2026-09-24,04:40:09,Cargill S.A. Muelle Quebracho,636020768,SAKIZAYA VICTORY,218.9,Rosario
+2026-09-24,04:40:09,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636024600,PACIFIC STAR,227.6,Rosario
+2026-09-24,04:40:09,Bunge - La Plata Cereal S.A. Muelle Dempa,538007659,DISCOVERER,130.3,Rosario
+2026-09-24,04:40:09,ADM Agro Terminal El Tránsito,701006740,GUILLERMO C,383.9,Rosario
+2026-09-24,04:40:09,Mosaic S.A. Muelle De Fertilizantes,352003693,ULTRA LANIN,175.5,Rosario
+2026-09-24,04:40:09,Asociación de Cooperativas Argentina,538009751,GENCO LADDEY,203.2,Rosario
+2026-09-24,04:40:09,Puerto Villa Constitución Unidad II,701006679,COOPOR ESTIBADOR I,81.2,Rosario
+2026-09-24,04:40:09,Zona Franca Boliviana,645181000,DN67,168.1,Rosario
+2026-09-24,04:40:09,Siderar S.A. Muelle Cerealero,755088000,DECATUR LADY,240.4,Rosario
+2026-09-24,04:40:09,Servicios Portuarios - Unidad I,701006242,JILGUERO 1,220.4,Rosario
+2026-09-24,04:40:09,Puerto Baradero,701007098,,110.1,DelGuazu
+2026-09-24,04:40:09,Puerto Zárate,255915644,NORDCHEETAH,94.2,DelGuazu
+2026-09-24,04:40:09,Esso S.a.p.a.,701006380,GUSTAVO U,428.1,DelGuazu
+2026-09-24,04:40:09,Terminal Zarate S.A.,441331000,GLOVIS CRYSTAL,326.2,DelGuazu
+2026-09-24,04:40:09,Puerto Zárate,701006448,ALPHAMAR II,31.9,DelGuazu
+2026-09-24,04:40:09,Terminal Zarate S.A.,257720360,STAR NAGA,94.1,DelGuazu
+2026-09-24,04:40:09,Maripasa S.A.,755127000,NAPO H,305.5,DelGuazu
+2026-09-24,04:40:09,Maripasa S.A.,755002724,SANTA MARIA,195.0,DelGuazu
+2026-09-24,04:40:09,Vitco S.A.,755116000,IMPALA ENCARNACION,133.5,DelGuazu
+2026-09-24,04:40:09,R.h.a.s.a. - Pobater,701006318,MAMACOTA,158.9,DelGuazu
+2026-09-24,04:40:09,Carboclor S.A.,372092000,,114.8,Braga
+2026-09-24,04:40:09,R.h.a.s.a. - Pobater,701006318,,157.9,Braga
+2026-09-24,04:40:09,Terminal Zarate S.A.,256488000,,370.9,Braga
+2026-09-24,04:40:09,Puerto Dock Sud,248791000,AYANE,177.8,Braga
+2026-09-24,04:40:09,Puerto Barranqueras,701006277,RAP,460.2,BellaVista
