@@ -1,0 +1,308 @@
+name: Backfill estadisticas AIS (historico)
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha_inicio:
+        description: "Fecha desde (AAAA-MM-DD)"
+        required: false
+        default: "2026-07-07"
+      fecha_fin:
+        description: "Fecha hasta (AAAA-MM-DD, dejar vacio = ayer)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar shapely
+        run: pip install shapely --break-system-packages
+
+      - name: Backfill del historico completo
+        run: |
+          mkdir -p data/eventos_rio data/eventos_puerto
+          FECHA_FIN="${{ github.event.inputs.fecha_fin }}"
+          if [ -z "$FECHA_FIN" ]; then
+            FECHA_FIN=$(date -u -d "yesterday" +%Y-%m-%d)
+          fi
+          python3 - "${{ github.event.inputs.fecha_inicio }}" "$FECHA_FIN" <<'PYEOF2'
+          """
+          Backfill: reprocesa TODO el historico crudo ya guardado en data/historico/
+          (que existe desde antes de que el detector de estadisticas existiera) y
+          reconstruye eventos_rio, eventos_puerto, resumen_diario.json y visitas.json
+          para toda esa ventana, no solo desde hoy.
+
+          Pensado para correr UNA VEZ (o cada vez que se quiera re-procesar historia
+          vieja), separado del detector normal que corre cada 10 minutos.
+          """
+          import json, csv, math, os, glob, sys
+          import urllib.request
+          from datetime import datetime, timezone, timedelta
+          from shapely.geometry import shape, Point
+          from shapely.ops import unary_union
+          from shapely.prepared import prep
+
+          ESCALA = 600000
+          RADIO_TIERRA_M = 6371000
+          DIST_MAX_REGISTRO = 500
+
+          BASE_MAPA = "https://raw.githubusercontent.com/thomasartopoulos/ais-parana-map/main/data"
+          BASE_HIST = "https://raw.githubusercontent.com/thomasartopoulos/historico-ais/main/data"
+
+          FECHA_INICIO = sys.argv[1] if len(sys.argv) > 1 else "2026-07-07"
+          FECHA_FIN = sys.argv[2] if len(sys.argv) > 2 else (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+
+
+          def haversine_m(lat1, lon1, lat2, lon2):
+              p1, p2 = math.radians(lat1), math.radians(lat2)
+              dphi = math.radians(lat2 - lat1)
+              dlmb = math.radians(lon2 - lon1)
+              a = math.sin(dphi/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dlmb/2)**2
+              return 2 * RADIO_TIERRA_M * math.asin(math.sqrt(a))
+
+
+          def bajar_json(url):
+              with urllib.request.urlopen(url, timeout=30) as resp:
+                  return json.loads(resp.read().decode("utf-8"))
+
+
+          def rango_fechas(ini, fin):
+              dias = []
+              d = datetime.strptime(ini, "%Y-%m-%d")
+              hasta = datetime.strptime(fin, "%Y-%m-%d")
+              while d <= hasta:
+                  dias.append(d.strftime("%Y-%m-%d"))
+                  d += timedelta(days=1)
+              return dias
+
+
+          print(f"Backfill desde {FECHA_INICIO} hasta {FECHA_FIN}")
+
+          puertos_gj = bajar_json(f"{BASE_MAPA}/puertos.geojson")
+          puertos = [(f["properties"]["nombre"], f["geometry"]["coordinates"][1], f["geometry"]["coordinates"][0])
+                     for f in puertos_gj["features"]]
+
+          rios_gj = bajar_json(f"{BASE_MAPA}/rios.geojson")
+          rios_prep = prep(unary_union([shape(f["geometry"]) for f in rios_gj["features"] if f["geometry"]]))
+
+          # --- fechas que ya estan cargadas en los CSV (para no duplicar si se corre 2 veces) ---
+          def fechas_ya_cargadas(patron):
+              fechas = set()
+              for path in glob.glob(patron):
+                  with open(path, encoding="utf-8") as f:
+                      for row in csv.DictReader(f):
+                          fechas.add(row["fecha"])
+              return fechas
+
+          ya_rio = fechas_ya_cargadas("data/eventos_rio/*.csv")
+          ya_puerto = fechas_ya_cargadas("data/eventos_puerto/*.csv")
+
+          buffers_rio = {}    # mes -> filas nuevas
+          buffers_puerto = {} # mes -> filas nuevas
+
+          dias = rango_fechas(FECHA_INICIO, FECHA_FIN)
+          total_dias_procesados = 0
+
+          for fecha in dias:
+              if fecha in ya_rio and fecha in ya_puerto:
+                  print(f"{fecha}: ya estaba cargado, se salta")
+                  continue
+
+              anio, mes_num, _ = fecha.split("-")
+              url = f"{BASE_HIST}/historico/{anio}/{mes_num}/{fecha}.json"
+              try:
+                  corridas = bajar_json(url)
+              except Exception as e:
+                  print(f"{fecha}: no disponible ({e}), se salta")
+                  continue
+
+              mes = f"{anio}-{mes_num}"
+              buffers_rio.setdefault(mes, [])
+              buffers_puerto.setdefault(mes, [])
+
+              for corrida in corridas:
+                  ts_dt = datetime.fromisoformat(corrida["timestamp"].replace("Z", "+00:00"))
+                  hora = ts_dt.strftime("%H:%M:%S")
+
+                  for zona, dz in (corrida.get("zonas") or {}).items():
+                      for mmsi, tgt in (dz.get("tgts") or {}).items():
+                          if tgt.get("t") not in (0, 1):
+                              continue
+                          x, y = tgt.get("x"), tgt.get("y")
+                          if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+                              continue
+                          lat, lon = y / ESCALA, x / ESCALA
+                          if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+                              continue
+                          nombre = tgt.get("n", "")
+                          punto = Point(lon, lat)
+
+                          if rios_prep.contains(punto):
+                              buffers_rio[mes].append({"fecha": fecha, "hora": hora, "mmsi": mmsi, "nombre": nombre, "zona": zona})
+
+                          if tgt.get("s") == 0:
+                              mejor = None
+                              for nombre_puerto, plat, plon in puertos:
+                                  d = haversine_m(lat, lon, plat, plon)
+                                  if d <= DIST_MAX_REGISTRO and (mejor is None or d < mejor[1]):
+                                      mejor = (nombre_puerto, d)
+                              if mejor:
+                                  buffers_puerto[mes].append({
+                                      "fecha": fecha, "hora": hora, "puerto": mejor[0], "mmsi": mmsi,
+                                      "nombre": nombre, "distancia_m": round(mejor[1], 1), "zona": zona,
+                                      "lat": round(lat, 5), "lon": round(lon, 5),
+                                  })
+
+              total_dias_procesados += 1
+              print(f"{fecha}: {len(corridas)} corridas procesadas")
+
+          # --- escribir los CSV (append, con header solo si el archivo es nuevo) ---
+          def append_csv(path, filas, campos):
+              if not filas:
+                  return
+              os.makedirs(os.path.dirname(path), exist_ok=True)
+              nuevo = not os.path.exists(path)
+              with open(path, "a", newline="", encoding="utf-8") as f:
+                  w = csv.DictWriter(f, fieldnames=campos)
+                  if nuevo:
+                      w.writeheader()
+                  w.writerows(filas)
+
+          for mes, filas in buffers_rio.items():
+              append_csv(f"data/eventos_rio/{mes}.csv", filas, ["fecha", "hora", "mmsi", "nombre", "zona"])
+          for mes, filas in buffers_puerto.items():
+              append_csv(f"data/eventos_puerto/{mes}.csv", filas,
+                         ["fecha", "hora", "puerto", "mmsi", "nombre", "distancia_m", "zona", "lat", "lon"])
+
+          print(f"OK: {total_dias_procesados} dias nuevos backfilleados")
+
+          # --- recomputar resumen_diario.json y visitas.json desde CERO (todos los CSV) ---
+          def cargar_todos(patron):
+              filas = []
+              for path in sorted(glob.glob(patron)):
+                  with open(path, encoding="utf-8") as f:
+                      filas.extend(csv.DictReader(f))
+              for row in filas:
+                  row["ts"] = datetime.fromisoformat(f"{row['fecha']}T{row['hora']}").replace(tzinfo=timezone.utc)
+              return filas
+
+          ahora = datetime.now(timezone.utc)
+
+          por_dia_rio = {}
+          for row in cargar_todos("data/eventos_rio/*.csv"):
+              por_dia_rio.setdefault(row["fecha"], set()).add(row["mmsi"])
+
+          with open("data/resumen_diario.json", "w", encoding="utf-8") as f:
+              json.dump({
+                  "actualizado": ahora.isoformat(),
+                  "nota": "buques_unicos = MMSI distintos vistos ese dia navegando dentro del poligono del rio.",
+                  "por_dia": {d: {"rio_buques_unicos": len(m)} for d, m in por_dia_rio.items()},
+              }, f, ensure_ascii=False)
+
+          DIST_MISMO_COMPLEJO_M = 1000  # terminales contiguas de la misma empresa no cuentan como "se movio"
+          LIMITE_SANIDAD_HORAS = 168     # 7 dias: tope de seguridad aunque no haya evidencia de movimiento
+          puerto_coords = {nombre: (plat, plon) for nombre, plat, plon in puertos}
+
+          def es_mismo_complejo(puerto_a, puerto_b):
+              if puerto_a == puerto_b:
+                  return True
+              ca, cb = puerto_coords.get(puerto_a), puerto_coords.get(puerto_b)
+              if not ca or not cb:
+                  return False
+              return haversine_m(ca[0], ca[1], cb[0], cb[1]) <= DIST_MISMO_COMPLEJO_M
+
+          eventos_p = cargar_todos("data/eventos_puerto/*.csv")
+          eventos_r = cargar_todos("data/eventos_rio/*.csv")
+
+          por_mmsi = {}
+          for row in eventos_p:
+              por_mmsi.setdefault(row["mmsi"], []).append(row)
+
+          timeline_por_mmsi = {}
+          for row in eventos_r:
+              timeline_por_mmsi.setdefault(row["mmsi"], []).append(row)
+          for row in eventos_p:
+              timeline_por_mmsi.setdefault(row["mmsi"], []).append(row)
+          for mmsi in timeline_por_mmsi:
+              timeline_por_mmsi[mmsi].sort(key=lambda r: r["ts"])
+
+          def hay_evidencia_de_movimiento(mmsi, t_desde, t_hasta, zonas_sesion, puerto_actual):
+              for ev in timeline_por_mmsi.get(mmsi, []):
+                  if not (t_desde < ev["ts"] < t_hasta):
+                      continue
+                  puerto_ev = ev.get("puerto")
+                  if puerto_ev and not es_mismo_complejo(puerto_ev, puerto_actual):
+                      return True
+                  if ev.get("zona") not in zonas_sesion:
+                      return True
+              return False
+
+          visitas = []
+          for mmsi, evs in por_mmsi.items():
+              evs.sort(key=lambda r: r["ts"])
+              sesion = [evs[0]]
+              puerto_actual = evs[0]["puerto"]
+              zonas_sesion = {evs[0]["zona"]}
+              for ev in evs[1:]:
+                  gap_horas = (ev["ts"] - sesion[-1]["ts"]).total_seconds() / 3600
+                  mismo_complejo = es_mismo_complejo(ev["puerto"], puerto_actual)
+
+                  if not mismo_complejo:
+                      cortar = True
+                  elif gap_horas > LIMITE_SANIDAD_HORAS:
+                      cortar = True
+                  else:
+                      cortar = hay_evidencia_de_movimiento(
+                          mmsi, sesion[-1]["ts"], ev["ts"], zonas_sesion, puerto_actual)
+
+                  if cortar:
+                      visitas.append(sesion)
+                      sesion = [ev]
+                      puerto_actual = ev["puerto"]
+                      zonas_sesion = {ev["zona"]}
+                  else:
+                      sesion.append(ev)
+                      zonas_sesion.add(ev["zona"])
+              visitas.append(sesion)
+
+          visitas_out = []
+          for s in visitas:
+              inicio, fin = s[0]["ts"], s[-1]["ts"]
+              visitas_out.append({
+                  "mmsi": s[0]["mmsi"], "nombre": s[0]["nombre"], "puerto": s[0]["puerto"],
+                  "inicio": inicio.isoformat(), "fin": fin.isoformat(),
+                  "duracion_horas": round((fin - inicio).total_seconds() / 3600, 2),
+              })
+
+          UMBRAL_PARADA_MIN_MIN = 30
+          antes_del_filtro = len(visitas_out)
+          visitas_out = [v for v in visitas_out if v["duracion_horas"] * 60 >= UMBRAL_PARADA_MIN_MIN]
+          print(f"Filtro de {UMBRAL_PARADA_MIN_MIN} min: {antes_del_filtro} -> {len(visitas_out)} visitas")
+
+          with open("data/visitas.json", "w", encoding="utf-8") as f:
+              json.dump({
+                  "actualizado": ahora.isoformat(),
+                  "nota": "Incluye backfill historico. Cada visita agrupa las detecciones consecutivas de un buque "
+                          "cerca del mismo puerto (o complejo contiguo, <1000m), sin limite de hueco salvo evidencia "
+                          "real de movimiento (otro puerto lejano, u otra zona segun eventos_rio). Tope de seguridad: "
+                          f"{LIMITE_SANIDAD_HORAS // 24} dias sin evidencia. Se descartan visitas de menos de "
+                          f"{UMBRAL_PARADA_MIN_MIN} minutos (probable ruido de senal).",
+                  "visitas": visitas_out,
+              }, f, ensure_ascii=False)
+
+          print(f"OK: {len(visitas_out)} visitas totales, {len(por_dia_rio)} dias de censo de rio")
+          PYEOF2
+
+      - name: Commit y push del backfill
+        run: |
+          git config user.name "ais-bot"
+          git config user.email "ais-bot@users.noreply.github.com"
+          git add data/eventos_rio data/eventos_puerto data/resumen_diario.json data/visitas.json
+          git diff --staged --quiet || (git commit -m "Backfill historico de estadisticas AIS" && git push)
