@@ -7770,3 +7770,53 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-10-01,23:00:17,Maripasa S.A.,701006643,,213.5,Braga
 2026-10-01,23:00:17,Puerto Dock Sud,701107000,MARIA EMILIA LV,486.2,Braga
 2026-10-01,23:00:17,Puerto Buenos Aires,755055000,RAUL D,383.0,Braga
+2026-10-01,23:10:10,Muelle Alumbrera,538005991,,177.5,SanLorenzo
+2026-10-01,23:10:10,Cofco S.A.,636020988,FANTASEA,156.2,SanLorenzo
+2026-10-01,23:10:10,Cargill S.A. Muelle Quebracho,352006354,BRAVE QUEST,230.4,SanLorenzo
+2026-10-01,23:10:10,Louis Dreyfus y Cia. Ltda. Timbúes,311001845,DOLPHIN 21,320.1,SanLorenzo
+2026-10-01,23:10:10,Terminal Chacabuco YPF,755079000,DR.SALGADO H,138.3,SanLorenzo
+2026-10-01,23:10:10,Central Termoeléctrica Timbués Renova,636022816,SDM DONGGUAN,149.0,SanLorenzo
+2026-10-01,23:10:10,Petrobras - Oil Combustible,701138000,POLARIS,162.3,SanLorenzo
+2026-10-01,23:10:10,Puerto Rosario S. A. Terminal 1,477754600,MAERSK VENEZIA,83.2,SanLorenzo
+2026-10-01,23:10:10,Cargill S.A. Villa Gdor. Gálvez,257087000,,297.7,SanLorenzo
+2026-10-01,23:10:10,Aceitera General Deheza,538012438,WELLNESS DIVA,234.4,SanLorenzo
+2026-10-01,23:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,636022194,PORT KYOTO,122.1,SanLorenzo
+2026-10-01,23:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,538009309,OCEAN VENUS,215.4,SanLorenzo
+2026-10-01,23:10:10,Terminal Chacabuco YPF,701001307,MAX DREAM,99.0,SanLorenzo
+2026-10-01,23:10:10,Asociación de Cooperativas Argentina,538009155,NAMA,202.0,SanLorenzo
+2026-10-01,23:10:10,Terminal Chacabuco YPF,701001324,HALCON,114.6,SanLorenzo
+2026-10-01,23:10:10,Toepfer International Argentina S.r.l.,636022773,BBG LIJIANG,153.0,SanLorenzo
+2026-10-01,23:10:10,Profertil S.A.,563302200,IONA ISLAND,186.3,SanLorenzo
+2026-10-01,23:10:10,Molinos Rí­o De La Plata,636017923,PIRRIHIOS,374.8,SanLorenzo
+2026-10-01,23:10:10,Terminal 6 S.A. Muelle Sur,636023707,FIESTA,195.9,SanLorenzo
+2026-10-01,23:10:10,Central Termoeléctrica Timbués Renova,636024124,CL ZHANJIANG,287.4,SanLorenzo
+2026-10-01,23:10:10,Bunge - La Plata Cereal S.A.,563305300,IWAGI ISLAND,171.0,SanLorenzo
+2026-10-01,23:10:10,Puerto Diamante,701006803,ANTONIO PUGLIESE,453.0,SanLorenzo
+2026-10-01,23:10:10,Puerto Diamante,701006865,PAMPA,246.2,SanLorenzo
+2026-10-01,23:10:10,Zona Franca Boliviana,645181000,DN67,168.0,SanLorenzo
+2026-10-01,23:10:10,Puerto Rosario,701001404,GUAZU PUCU,207.8,SanLorenzo
+2026-10-01,23:10:10,Petrobras - Oil Combustible,701138000,,162.9,Rosario
+2026-10-01,23:10:10,Bunge - La Plata Cereal S.A.,563305300,,163.3,Rosario
+2026-10-01,23:10:10,Cofco S.A.,636020988,FANTASEA,156.2,Rosario
+2026-10-01,23:10:10,Cargill S.A. Muelle Quebracho,352006354,BRAVE QUEST,230.4,Rosario
+2026-10-01,23:10:10,Terminal Chacabuco YPF,755079000,DR.SALGADO H,138.3,Rosario
+2026-10-01,23:10:10,Puerto Rosario S. A. Terminal 1,477754600,MAERSK VENEZIA,83.2,Rosario
+2026-10-01,23:10:10,Aceitera General Deheza,538012438,WELLNESS DIVA,234.4,Rosario
+2026-10-01,23:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,636022194,PORT KYOTO,122.1,Rosario
+2026-10-01,23:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,538009309,OCEAN VENUS,215.4,Rosario
+2026-10-01,23:10:10,Toepfer International Argentina S.r.l.,636022773,BBG LIJIANG,153.0,Rosario
+2026-10-01,23:10:10,Puerto Villa Constitución Unidad II,701006679,,74.3,Rosario
+2026-10-01,23:10:10,Molinos Rí­o De La Plata,636017923,PIRRIHIOS,374.8,Rosario
+2026-10-01,23:10:10,Terminal 6 S.A. Muelle Sur,636023707,FIESTA,195.9,Rosario
+2026-10-01,23:10:10,Zona Franca Boliviana,645181000,DN67,168.0,Rosario
+2026-10-01,23:10:10,Puerto Rosario,701001404,GUAZU PUCU,207.8,Rosario
+2026-10-01,23:10:10,Esso S.a.p.a.,701125000,,177.7,DelGuazu
+2026-10-01,23:10:10,Euroamercia S.A.,563305600,JERICHO BEACH,123.7,DelGuazu
+2026-10-01,23:10:10,Vitco S.A.,636019233,HIGH VOYAGER,160.9,DelGuazu
+2026-10-01,23:10:10,Siderca S.A.,636020873,BUILDER,372.8,DelGuazu
+2026-10-01,23:10:10,Maripasa S.A.,701006643,DON RAXYZ,213.8,DelGuazu
+2026-10-01,23:10:10,Puerto Buenos Aires,987010000,SSRA-PNA-LABORATORIO,246.1,Braga
+2026-10-01,23:10:10,Siderca S.A.,636020873,,370.7,Braga
+2026-10-01,23:10:10,Maripasa S.A.,701006643,,214.1,Braga
+2026-10-01,23:10:10,Puerto Dock Sud,701107000,MARIA EMILIA LV,485.9,Braga
+2026-10-01,23:10:10,Puerto Buenos Aires,755055000,RAUL D,382.3,Braga
