@@ -2008,3 +2008,65 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-10-01,06:00:23,Euroamercia S.A.,563305600,,121.1,Braga
 2026-10-01,06:00:23,Puerto Buenos Aires,701006706,SVITZER MORA,471.9,Braga
 2026-10-01,06:00:23,Puerto Buenos Aires,755055000,RAUL D,364.4,Braga
+2026-10-01,06:10:10,Puerto Villa Constitución Unidad II,701006679,,81.2,SanLorenzo
+2026-10-01,06:10:10,Puerto San Nicolás,636019448,,275.6,SanLorenzo
+2026-10-01,06:10:10,Puerto Villa Constitución Unidad II,701006242,JILGUERO 1,304.3,SanLorenzo
+2026-10-01,06:10:10,Shell C.a.p.s.a.,701124000,JULIO A,180.4,SanLorenzo
+2026-10-01,06:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,538009309,OCEAN VENUS,217.6,SanLorenzo
+2026-10-01,06:10:10,Cargill S.A. Muelle Quebracho,352006354,BRAVE QUEST,231.6,SanLorenzo
+2026-10-01,06:10:10,Terminal Chacabuco YPF,755079000,DR.SALGADO H,110.8,SanLorenzo
+2026-10-01,06:10:10,Louis Dreyfus y Cia. Ltda. Timbúes,311001845,DOLPHIN 21,311.4,SanLorenzo
+2026-10-01,06:10:10,Central Termoeléctrica Timbués Renova,636022816,SDM DONGGUAN,150.9,SanLorenzo
+2026-10-01,06:10:10,YPF Fluvial,701170000,MAKENITA H,118.6,SanLorenzo
+2026-10-01,06:10:10,Terminal 6 S.A. Muelle Sur,636023707,FIESTA,155.7,SanLorenzo
+2026-10-01,06:10:10,Siderar S.A. Muelle Comercial,477318600,ALBATROSS ISLAND,488.8,SanLorenzo
+2026-10-01,06:10:10,Petrobras - Oil Combustible,701138000,POLARIS,162.4,SanLorenzo
+2026-10-01,06:10:10,Aceitera General Deheza,538012438,WELLNESS DIVA,233.7,SanLorenzo
+2026-10-01,06:10:10,Central Termoeléctrica Timbués Renova,636026236,AURIGA STAR,269.0,SanLorenzo
+2026-10-01,06:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,636022194,PORT KYOTO,123.4,SanLorenzo
+2026-10-01,06:10:10,Puerto San Lorenzo,255915928,CAPE GULL,98.7,SanLorenzo
+2026-10-01,06:10:10,Cofco Internacional Argentina S.A.,210025000,ELONA,157.5,SanLorenzo
+2026-10-01,06:10:10,Asociación de Cooperativas Argentina,538009155,,202.8,SanLorenzo
+2026-10-01,06:10:10,Terminal Chacabuco YPF,701001324,HALCON,117.5,SanLorenzo
+2026-10-01,06:10:10,Toepfer International Argentina S.r.l.,636022773,BBG LIJIANG,153.4,SanLorenzo
+2026-10-01,06:10:10,Terminal Chacabuco YPF,701001114,IGUAZU,117.3,SanLorenzo
+2026-10-01,06:10:10,Cargill S.A. Punta Alvear,538006432,FEDERAL BERING,110.2,SanLorenzo
+2026-10-01,06:10:10,Profertil S.A.,563302200,IONA ISLAND,183.9,SanLorenzo
+2026-10-01,06:10:10,Puerto Rosario S.A. Terminal 2,720915000,IB PARAGUAY,228.7,SanLorenzo
+2026-10-01,06:10:10,Molinos Rí­o De La Plata,636017923,PIRRIHIOS,374.6,SanLorenzo
+2026-10-01,06:10:10,Cofco S.A.,477142400,BOCHEM BUCEPHALAS,444.2,SanLorenzo
+2026-10-01,06:10:10,Terminal Chacabuco YPF,701001307,MAX DREAM,98.9,SanLorenzo
+2026-10-01,06:10:10,Central Termoeléctrica Timbués Renova,755171000,IB CONCEPCION,58.4,SanLorenzo
+2026-10-01,06:10:10,Puerto Diamante,701006803,ANTONIO PUGLIESE,453.0,SanLorenzo
+2026-10-01,06:10:10,Puerto Rosario,701001404,GUAZU PUCU,206.2,SanLorenzo
+2026-10-01,06:10:10,Cofco S.A.,636020988,FANTASEA,152.4,SanLorenzo
+2026-10-01,06:10:10,Terminal Chacabuco YPF,701001114,IGUAZU,118.5,Rosario
+2026-10-01,06:10:10,Cargill S.A. Villa Gdor. Gálvez,257087000,DAMSGAARD,296.8,Rosario
+2026-10-01,06:10:10,Central Termoeléctrica Timbués Renova,636026236,AURIGA STAR,270.1,Rosario
+2026-10-01,06:10:10,Cargill S.A. Muelle Quebracho,352006354,BRAVE QUEST,231.6,Rosario
+2026-10-01,06:10:10,Terminal Chacabuco YPF,755079000,DR.SALGADO H,110.8,Rosario
+2026-10-01,06:10:10,YPF Fluvial,701170000,MAKENITA H,118.6,Rosario
+2026-10-01,06:10:10,Terminal 6 S.A. Muelle Sur,636023707,FIESTA,155.7,Rosario
+2026-10-01,06:10:10,Aceitera General Deheza,538012438,,233.7,Rosario
+2026-10-01,06:10:10,Bunge - La Plata Cereal S.A. Muelle Dempa,636022194,PORT KYOTO,123.4,Rosario
+2026-10-01,06:10:10,Puerto San Lorenzo,255915928,CAPE GULL,98.7,Rosario
+2026-10-01,06:10:10,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,538009309,OCEAN VENUS,213.3,Rosario
+2026-10-01,06:10:10,Cofco Internacional Argentina S.A.,210025000,ELONA,157.5,Rosario
+2026-10-01,06:10:10,Toepfer International Argentina S.r.l.,636022773,BBG LIJIANG,153.4,Rosario
+2026-10-01,06:10:10,Cargill S.A. Punta Alvear,538006432,FEDERAL BERING,110.2,Rosario
+2026-10-01,06:10:10,Puerto Rosario S.A. Terminal 2,720915000,IB PARAGUAY,228.7,Rosario
+2026-10-01,06:10:10,Molinos Rí­o De La Plata,636017923,PIRRIHIOS,374.6,Rosario
+2026-10-01,06:10:10,Cofco S.A.,477142400,BOCHEM BUCEPHALAS,444.2,Rosario
+2026-10-01,06:10:10,Puerto Villa Constitución Unidad II,701006679,COOPOR ESTIBADOR I,72.7,Rosario
+2026-10-01,06:10:10,Terminal Chacabuco YPF,701001307,MAX DREAM,98.9,Rosario
+2026-10-01,06:10:10,Puerto Villa Constitución Unidad II,701006242,,303.3,Rosario
+2026-10-01,06:10:10,Cofco S.A.,636020988,FANTASEA,152.4,Rosario
+2026-10-01,06:10:10,Puerto Rosario,701001404,GUAZU PUCU,206.2,Rosario
+2026-10-01,06:10:10,R.h.a.s.a. - Pobater,701006318,,158.8,DelGuazu
+2026-10-01,06:10:10,Puerto Zárate,701006448,ALPHAMAR II,28.8,DelGuazu
+2026-10-01,06:10:10,Euroamercia S.A.,563305600,JERICHO BEACH,120.3,DelGuazu
+2026-10-01,06:10:10,Puerto Ibicuy,355357000,DRAKE WELL,78.8,DelGuazu
+2026-10-01,06:10:10,R.h.a.s.a. - Pobater,701125000,DANIEL F,134.1,DelGuazu
+2026-10-01,06:10:10,Siderca S.A.,636020873,BUILDER,410.1,DelGuazu
+2026-10-01,06:10:10,Puerto Buenos Aires,755055000,RAUL D,333.7,Braga
+2026-10-01,06:10:10,Puerto Buenos Aires,701006706,SVITZER MORA,471.8,Braga
