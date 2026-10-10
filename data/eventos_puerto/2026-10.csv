@@ -83520,3 +83520,284 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-10-10,17:50:13,Esso S.a.p.a.,636093202,LAGO DI COMO,446.6,DelGuazu
 2026-10-10,17:50:13,R.h.a.s.a. - Pobater,701006318,,160.0,DelGuazu
 2026-10-10,17:50:13,Terminal Zarate S.A.,636025521,ITHACA,163.9,DelGuazu
+2026-10-10,18:00:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,193.6,SanLorenzo
+2026-10-10,18:00:17,Puerto Rosario,701000894,ARA PUNTA MOGOTES,35.5,SanLorenzo
+2026-10-10,18:00:17,Molinos Rí­o De La Plata,219027923,TORM INDIA,396.7,SanLorenzo
+2026-10-10,18:00:17,Cofco S.A.,636093401,LEONARDO,153.9,SanLorenzo
+2026-10-10,18:00:17,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,149.8,SanLorenzo
+2026-10-10,18:00:17,Central Termoeléctrica Timbués Renova,256740000,FLORA K,286.2,SanLorenzo
+2026-10-10,18:00:17,Central Termoeléctrica Timbués Renova,352001284,SAKIZAYA YOUTH,160.8,SanLorenzo
+2026-10-10,18:00:17,Cargill S.A. Punta Alvear,636022718,ADASTAR,118.8,SanLorenzo
+2026-10-10,18:00:17,YPF Fluvial,701153000,PAULINO C,124.2,SanLorenzo
+2026-10-10,18:00:17,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,186.7,SanLorenzo
+2026-10-10,18:00:17,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,181.0,SanLorenzo
+2026-10-10,18:00:17,Puerto San Lorenzo,636020884,AHSOKA,113.9,SanLorenzo
+2026-10-10,18:00:17,Terminal 6 S.A. Muelle Norte,563213100,BATAVIA EXPRESS,161.3,SanLorenzo
+2026-10-10,18:00:17,Cofco S.A.,701006742,DON JUAN N,248.7,SanLorenzo
+2026-10-10,18:00:17,Aceitera General Deheza,249724000,V ALDO,228.0,SanLorenzo
+2026-10-10,18:00:17,Louis Dreyfus y Cia. Ltda. Timbúes,538010764,CETUS TIGER,344.9,SanLorenzo
+2026-10-10,18:00:17,Terminal 6 S.A. Muelle Sur,636022353,PETROS S,156.8,SanLorenzo
+2026-10-10,18:00:17,Vicentin S.A.I.C,538005702,BAHIA,151.2,SanLorenzo
+2026-10-10,18:00:17,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.4,SanLorenzo
+2026-10-10,18:00:17,Terminal Chacabuco YPF,701001324,HALCON,115.9,SanLorenzo
+2026-10-10,18:00:17,Cofco S.A.,701006396,VB RECOLETA,224.1,SanLorenzo
+2026-10-10,18:00:17,Axion San Lorenzo,538009801,HELIOS,159.4,SanLorenzo
+2026-10-10,18:00:17,Terminal Chacabuco YPF,701001307,MAX DREAM,98.4,SanLorenzo
+2026-10-10,18:00:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,217.4,SanLorenzo
+2026-10-10,18:00:17,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,183.4,SanLorenzo
+2026-10-10,18:00:17,Puerto Diamante,701006803,ANTONIO PUGLIESE,454.9,SanLorenzo
+2026-10-10,18:00:17,Petrobras - Oil Combustible,701006443,MAYU,161.3,SanLorenzo
+2026-10-10,18:00:17,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.3,SanLorenzo
+2026-10-10,18:00:17,Terminal 6 S.A. Muelle Sur,636022353,,157.7,Rosario
+2026-10-10,18:00:17,Central Termoeléctrica Timbués Renova,352001284,,158.9,Rosario
+2026-10-10,18:00:17,Terminal Chacabuco YPF,701001114,IGUAZU,118.9,Rosario
+2026-10-10,18:00:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,193.6,Rosario
+2026-10-10,18:00:17,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,185.5,Rosario
+2026-10-10,18:00:17,Puerto Rosario,701000894,ARA PUNTA MOGOTES,35.5,Rosario
+2026-10-10,18:00:17,Cofco S.A.,636093401,LEONARDO,153.9,Rosario
+2026-10-10,18:00:17,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,149.8,Rosario
+2026-10-10,18:00:17,Cargill S.A. Punta Alvear,636022718,ADASTAR,118.8,Rosario
+2026-10-10,18:00:17,YPF Fluvial,701153000,PAULINO C,124.2,Rosario
+2026-10-10,18:00:17,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,186.7,Rosario
+2026-10-10,18:00:17,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,181.0,Rosario
+2026-10-10,18:00:17,Puerto San Lorenzo,636020884,AHSOKA,113.9,Rosario
+2026-10-10,18:00:17,Cofco S.A.,701006742,DON JUAN N,248.7,Rosario
+2026-10-10,18:00:17,Aceitera General Deheza,249724000,V ALDO,228.0,Rosario
+2026-10-10,18:00:17,Vicentin S.A.I.C,538005702,BAHIA,151.2,Rosario
+2026-10-10,18:00:17,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.4,Rosario
+2026-10-10,18:00:17,Cofco S.A.,701006396,VB RECOLETA,224.1,Rosario
+2026-10-10,18:00:17,Axion San Lorenzo,538009801,HELIOS,159.4,Rosario
+2026-10-10,18:00:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,217.4,Rosario
+2026-10-10,18:00:17,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.3,Rosario
+2026-10-10,18:00:17,Petrobras - Oil Combustible,701006443,MAYU,161.3,Rosario
+2026-10-10,18:00:17,R.h.a.s.a. - Pobater,701006318,,160.3,DelGuazu
+2026-10-10,18:00:17,R.h.a.s.a. - Pobater,538004791,THE AMIGO,340.3,DelGuazu
+2026-10-10,18:00:17,Carboclor S.A.,725019110,SPL TARAPACA,104.0,DelGuazu
+2026-10-10,18:00:17,Esso S.a.p.a.,636093202,LAGO DI COMO,450.2,DelGuazu
+2026-10-10,18:00:17,Terminal Zarate S.A.,636025521,ITHACA,163.6,DelGuazu
+2026-10-10,18:00:17,Puerto Barranqueras,701001056,ENRICO H,462.2,BellaVista
+2026-10-10,18:10:19,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,190.6,SanLorenzo
+2026-10-10,18:10:19,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,213.1,SanLorenzo
+2026-10-10,18:10:19,Puerto Rosario,701000894,ARA PUNTA MOGOTES,35.8,SanLorenzo
+2026-10-10,18:10:19,Cofco S.A.,636093401,LEONARDO,153.3,SanLorenzo
+2026-10-10,18:10:19,Molinos Rí­o De La Plata,219027923,TORM INDIA,402.7,SanLorenzo
+2026-10-10,18:10:19,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,154.2,SanLorenzo
+2026-10-10,18:10:19,Central Termoeléctrica Timbués Renova,256740000,FLORA K,283.2,SanLorenzo
+2026-10-10,18:10:19,Central Termoeléctrica Timbués Renova,352001284,SAKIZAYA YOUTH,163.0,SanLorenzo
+2026-10-10,18:10:19,Cargill S.A. Punta Alvear,636022718,ADASTAR,118.3,SanLorenzo
+2026-10-10,18:10:19,YPF Fluvial,701153000,PAULINO C,116.3,SanLorenzo
+2026-10-10,18:10:19,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,186.6,SanLorenzo
+2026-10-10,18:10:19,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,193.2,SanLorenzo
+2026-10-10,18:10:19,Puerto San Lorenzo,636020884,AHSOKA,109.7,SanLorenzo
+2026-10-10,18:10:19,Cofco S.A.,701006742,DON JUAN N,249.2,SanLorenzo
+2026-10-10,18:10:19,Terminal 6 S.A. Muelle Norte,563213100,BATAVIA EXPRESS,161.1,SanLorenzo
+2026-10-10,18:10:19,Aceitera General Deheza,249724000,V ALDO,225.6,SanLorenzo
+2026-10-10,18:10:19,Terminal Chacabuco YPF,701001114,IGUAZU,118.3,SanLorenzo
+2026-10-10,18:10:19,Terminal 6 S.A. Muelle Sur,636022353,PETROS S,157.7,SanLorenzo
+2026-10-10,18:10:19,Vicentin S.A.I.C,538005702,BAHIA,154.5,SanLorenzo
+2026-10-10,18:10:19,Toepfer International Argentina S.r.l.,636024649,LV STAR,156.5,SanLorenzo
+2026-10-10,18:10:19,Terminal Chacabuco YPF,701001324,HALCON,116.6,SanLorenzo
+2026-10-10,18:10:19,Cofco S.A.,701006396,VB RECOLETA,223.1,SanLorenzo
+2026-10-10,18:10:19,Axion San Lorenzo,538009801,HELIOS,158.9,SanLorenzo
+2026-10-10,18:10:19,Terminal Chacabuco YPF,701001307,MAX DREAM,98.0,SanLorenzo
+2026-10-10,18:10:19,Puerto Diamante,701006803,ANTONIO PUGLIESE,455.5,SanLorenzo
+2026-10-10,18:10:19,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,192.2,SanLorenzo
+2026-10-10,18:10:19,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.6,SanLorenzo
+2026-10-10,18:10:19,Petrobras - Oil Combustible,701006443,MAYU,162.0,SanLorenzo
+2026-10-10,18:10:19,Puerto Villa Constitución Unidad III,701006107,,113.3,Rosario
+2026-10-10,18:10:19,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,190.6,Rosario
+2026-10-10,18:10:19,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,213.1,Rosario
+2026-10-10,18:10:19,Puerto Rosario,701000894,ARA PUNTA MOGOTES,35.8,Rosario
+2026-10-10,18:10:19,Cofco S.A.,636093401,LEONARDO,153.3,Rosario
+2026-10-10,18:10:19,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,154.2,Rosario
+2026-10-10,18:10:19,Central Termoeléctrica Timbués Renova,352001284,,163.0,Rosario
+2026-10-10,18:10:19,Cargill S.A. Punta Alvear,636022718,ADASTAR,118.3,Rosario
+2026-10-10,18:10:19,YPF Fluvial,701153000,PAULINO C,116.3,Rosario
+2026-10-10,18:10:19,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,186.6,Rosario
+2026-10-10,18:10:19,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,193.2,Rosario
+2026-10-10,18:10:19,Puerto San Lorenzo,636020884,AHSOKA,109.7,Rosario
+2026-10-10,18:10:19,Cofco S.A.,701006742,DON JUAN N,249.2,Rosario
+2026-10-10,18:10:19,Aceitera General Deheza,249724000,V ALDO,225.6,Rosario
+2026-10-10,18:10:19,Terminal Chacabuco YPF,701001114,IGUAZU,118.3,Rosario
+2026-10-10,18:10:19,Vicentin S.A.I.C,538005702,BAHIA,154.5,Rosario
+2026-10-10,18:10:19,Toepfer International Argentina S.r.l.,636024649,LV STAR,156.5,Rosario
+2026-10-10,18:10:19,Cofco S.A.,701006396,VB RECOLETA,223.1,Rosario
+2026-10-10,18:10:19,Axion San Lorenzo,538009801,HELIOS,158.9,Rosario
+2026-10-10,18:10:19,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.6,Rosario
+2026-10-10,18:10:19,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,192.2,Rosario
+2026-10-10,18:10:19,Petrobras - Oil Combustible,701006443,MAYU,162.0,Rosario
+2026-10-10,18:10:19,R.h.a.s.a. - Pobater,538004791,THE AMIGO,340.4,DelGuazu
+2026-10-10,18:10:19,Carboclor S.A.,725019110,SPL TARAPACA,104.3,DelGuazu
+2026-10-10,18:10:19,R.h.a.s.a. - Pobater,701006318,,161.1,DelGuazu
+2026-10-10,18:10:19,Esso S.a.p.a.,636093202,LAGO DI COMO,449.6,DelGuazu
+2026-10-10,18:10:19,Terminal Zarate S.A.,636025521,ITHACA,162.7,DelGuazu
+2026-10-10,18:10:19,Terminal Zarate S.A.,636025521,,166.6,Braga
+2026-10-10,18:20:14,Cofco S.A.,701006742,DON JUAN N,249.0,SanLorenzo
+2026-10-10,18:20:14,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,225.3,SanLorenzo
+2026-10-10,18:20:14,Puerto Rosario,701000894,ARA PUNTA MOGOTES,36.1,SanLorenzo
+2026-10-10,18:20:14,Molinos Rí­o De La Plata,219027923,TORM INDIA,400.4,SanLorenzo
+2026-10-10,18:20:14,Cofco S.A.,636093401,LEONARDO,154.7,SanLorenzo
+2026-10-10,18:20:14,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,149.0,SanLorenzo
+2026-10-10,18:20:14,Central Termoeléctrica Timbués Renova,352001284,SAKIZAYA YOUTH,161.0,SanLorenzo
+2026-10-10,18:20:14,Central Termoeléctrica Timbués Renova,256740000,FLORA K,284.9,SanLorenzo
+2026-10-10,18:20:14,Cargill S.A. Punta Alvear,636022718,ADASTAR,123.4,SanLorenzo
+2026-10-10,18:20:14,YPF Fluvial,701153000,PAULINO C,121.9,SanLorenzo
+2026-10-10,18:20:14,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,186.1,SanLorenzo
+2026-10-10,18:20:14,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,188.7,SanLorenzo
+2026-10-10,18:20:14,Puerto San Lorenzo,636020884,AHSOKA,113.2,SanLorenzo
+2026-10-10,18:20:14,Terminal 6 S.A. Muelle Norte,563213100,BATAVIA EXPRESS,175.9,SanLorenzo
+2026-10-10,18:20:14,Aceitera General Deheza,249724000,V ALDO,226.2,SanLorenzo
+2026-10-10,18:20:14,Terminal Chacabuco YPF,701001114,IGUAZU,119.1,SanLorenzo
+2026-10-10,18:20:14,Louis Dreyfus y Cia. Ltda. Timbúes,538010764,CETUS TIGER,340.9,SanLorenzo
+2026-10-10,18:20:14,Terminal 6 S.A. Muelle Sur,636022353,PETROS S,157.9,SanLorenzo
+2026-10-10,18:20:14,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,194.1,SanLorenzo
+2026-10-10,18:20:14,Vicentin S.A.I.C,538005702,BAHIA,152.3,SanLorenzo
+2026-10-10,18:20:14,Toepfer International Argentina S.r.l.,636024649,LV STAR,156.6,SanLorenzo
+2026-10-10,18:20:14,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,166.4,SanLorenzo
+2026-10-10,18:20:14,Cofco S.A.,701006396,VB RECOLETA,222.5,SanLorenzo
+2026-10-10,18:20:14,Axion San Lorenzo,538009801,HELIOS,157.6,SanLorenzo
+2026-10-10,18:20:14,Terminal Chacabuco YPF,701001307,MAX DREAM,97.5,SanLorenzo
+2026-10-10,18:20:14,Puerto Diamante,701006803,ANTONIO PUGLIESE,456.0,SanLorenzo
+2026-10-10,18:20:14,Petrobras - Oil Combustible,701006443,MAYU,160.5,SanLorenzo
+2026-10-10,18:20:14,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,190.7,SanLorenzo
+2026-10-10,18:20:14,Siderar S.A. Muelle Comercial,538011992,,209.7,Rosario
+2026-10-10,18:20:14,Central Termoeléctrica Timbués Renova,352001284,,161.3,Rosario
+2026-10-10,18:20:14,Cofco S.A.,701006742,DON JUAN N,249.0,Rosario
+2026-10-10,18:20:14,Puerto Villa Constitución Unidad III,701006107,,114.7,Rosario
+2026-10-10,18:20:14,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,225.3,Rosario
+2026-10-10,18:20:14,Puerto Rosario,701000894,ARA PUNTA MOGOTES,36.1,Rosario
+2026-10-10,18:20:14,Cofco S.A.,636093401,LEONARDO,154.7,Rosario
+2026-10-10,18:20:14,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,149.0,Rosario
+2026-10-10,18:20:14,Cargill S.A. Punta Alvear,636022718,ADASTAR,123.4,Rosario
+2026-10-10,18:20:14,YPF Fluvial,701153000,PAULINO C,121.9,Rosario
+2026-10-10,18:20:14,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,186.1,Rosario
+2026-10-10,18:20:14,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,188.7,Rosario
+2026-10-10,18:20:14,Puerto San Lorenzo,636020884,AHSOKA,113.2,Rosario
+2026-10-10,18:20:14,Aceitera General Deheza,249724000,V ALDO,226.2,Rosario
+2026-10-10,18:20:14,Terminal Chacabuco YPF,701001114,IGUAZU,119.1,Rosario
+2026-10-10,18:20:14,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,194.1,Rosario
+2026-10-10,18:20:14,Vicentin S.A.I.C,538005702,BAHIA,152.3,Rosario
+2026-10-10,18:20:14,Toepfer International Argentina S.r.l.,636024649,LV STAR,156.6,Rosario
+2026-10-10,18:20:14,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,166.4,Rosario
+2026-10-10,18:20:14,Cofco S.A.,701006396,VB RECOLETA,222.5,Rosario
+2026-10-10,18:20:14,Axion San Lorenzo,538009801,HELIOS,157.6,Rosario
+2026-10-10,18:20:14,Petrobras - Oil Combustible,701006443,MAYU,160.5,Rosario
+2026-10-10,18:20:14,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,190.7,Rosario
+2026-10-10,18:20:14,R.h.a.s.a. - Pobater,538004791,THE AMIGO,341.2,DelGuazu
+2026-10-10,18:20:14,Carboclor S.A.,725019110,SPL TARAPACA,101.8,DelGuazu
+2026-10-10,18:20:14,R.h.a.s.a. - Pobater,701006318,,161.0,DelGuazu
+2026-10-10,18:20:14,Esso S.a.p.a.,636093202,LAGO DI COMO,457.3,DelGuazu
+2026-10-10,18:20:14,Terminal Zarate S.A.,636025521,ITHACA,158.8,DelGuazu
+2026-10-10,18:20:14,Terminal Zarate S.A.,636025521,,163.3,Braga
+2026-10-10,18:20:14,Puerto Barranqueras,701001056,ENRICO H,462.6,BellaVista
+2026-10-10,18:30:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,223.8,SanLorenzo
+2026-10-10,18:30:17,Puerto Rosario,701000894,ARA PUNTA MOGOTES,37.9,SanLorenzo
+2026-10-10,18:30:17,Cofco S.A.,636093401,LEONARDO,154.3,SanLorenzo
+2026-10-10,18:30:17,Molinos Rí­o De La Plata,219027923,TORM INDIA,398.6,SanLorenzo
+2026-10-10,18:30:17,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,145.7,SanLorenzo
+2026-10-10,18:30:17,Central Termoeléctrica Timbués Renova,256740000,FLORA K,292.9,SanLorenzo
+2026-10-10,18:30:17,Central Termoeléctrica Timbués Renova,352001284,SAKIZAYA YOUTH,159.7,SanLorenzo
+2026-10-10,18:30:17,Cargill S.A. Punta Alvear,636022718,ADASTAR,123.2,SanLorenzo
+2026-10-10,18:30:17,YPF Fluvial,701153000,PAULINO C,119.3,SanLorenzo
+2026-10-10,18:30:17,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,184.2,SanLorenzo
+2026-10-10,18:30:17,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,186.6,SanLorenzo
+2026-10-10,18:30:17,Puerto San Lorenzo,636020884,AHSOKA,109.6,SanLorenzo
+2026-10-10,18:30:17,Cofco S.A.,701006742,DON JUAN N,247.2,SanLorenzo
+2026-10-10,18:30:17,Aceitera General Deheza,249724000,V ALDO,226.1,SanLorenzo
+2026-10-10,18:30:17,Terminal 6 S.A. Muelle Norte,563213100,BATAVIA EXPRESS,168.6,SanLorenzo
+2026-10-10,18:30:17,Terminal Chacabuco YPF,701001114,IGUAZU,121.6,SanLorenzo
+2026-10-10,18:30:17,Louis Dreyfus y Cia. Ltda. Timbúes,538010764,CETUS TIGER,345.7,SanLorenzo
+2026-10-10,18:30:17,Terminal 6 S.A. Muelle Sur,636022353,PETROS S,158.2,SanLorenzo
+2026-10-10,18:30:17,Vicentin S.A.I.C,538005702,BAHIA,153.2,SanLorenzo
+2026-10-10,18:30:17,Toepfer International Argentina S.r.l.,636024649,LV STAR,159.4,SanLorenzo
+2026-10-10,18:30:17,Axion San Lorenzo,538009801,HELIOS,158.1,SanLorenzo
+2026-10-10,18:30:17,Cofco S.A.,701006396,VB RECOLETA,223.2,SanLorenzo
+2026-10-10,18:30:17,Terminal Chacabuco YPF,701001307,MAX DREAM,97.8,SanLorenzo
+2026-10-10,18:30:17,Petrobras - Oil Combustible,701006443,MAYU,161.7,SanLorenzo
+2026-10-10,18:30:17,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,189.3,SanLorenzo
+2026-10-10,18:30:17,Puerto Diamante,701006803,ANTONIO PUGLIESE,456.1,SanLorenzo
+2026-10-10,18:30:17,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.1,SanLorenzo
+2026-10-10,18:30:17,Puerto Villa Constitución Unidad III,701006107,,113.1,Rosario
+2026-10-10,18:30:17,Siderar S.A. Muelle Comercial,538011992,,208.1,Rosario
+2026-10-10,18:30:17,Terminal Chacabuco YPF,701001114,IGUAZU,121.9,Rosario
+2026-10-10,18:30:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,TAGUATO,192.8,Rosario
+2026-10-10,18:30:17,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,192.4,Rosario
+2026-10-10,18:30:17,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,223.8,Rosario
+2026-10-10,18:30:17,Puerto Rosario,701000894,ARA PUNTA MOGOTES,37.9,Rosario
+2026-10-10,18:30:17,Cofco S.A.,636093401,LEONARDO,154.3,Rosario
+2026-10-10,18:30:17,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,145.7,Rosario
+2026-10-10,18:30:17,Cargill S.A. Punta Alvear,636022718,ADASTAR,123.2,Rosario
+2026-10-10,18:30:17,YPF Fluvial,701153000,PAULINO C,119.3,Rosario
+2026-10-10,18:30:17,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,184.2,Rosario
+2026-10-10,18:30:17,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,186.6,Rosario
+2026-10-10,18:30:17,Puerto San Lorenzo,636020884,AHSOKA,109.6,Rosario
+2026-10-10,18:30:17,Cofco S.A.,701006742,DON JUAN N,247.2,Rosario
+2026-10-10,18:30:17,Aceitera General Deheza,249724000,V ALDO,226.1,Rosario
+2026-10-10,18:30:17,Vicentin S.A.I.C,538005702,BAHIA,153.2,Rosario
+2026-10-10,18:30:17,Toepfer International Argentina S.r.l.,636024649,LV STAR,159.4,Rosario
+2026-10-10,18:30:17,Axion San Lorenzo,538009801,HELIOS,158.1,Rosario
+2026-10-10,18:30:17,Cofco S.A.,701006396,VB RECOLETA,223.2,Rosario
+2026-10-10,18:30:17,Petrobras - Oil Combustible,701006443,MAYU,161.7,Rosario
+2026-10-10,18:30:17,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,165.1,Rosario
+2026-10-10,18:30:17,R.h.a.s.a. - Pobater,538004791,THE AMIGO,339.3,DelGuazu
+2026-10-10,18:30:17,Esso S.a.p.a.,636093202,LAGO DI COMO,455.1,DelGuazu
+2026-10-10,18:30:17,Carboclor S.A.,725019110,SPL TARAPACA,106.4,DelGuazu
+2026-10-10,18:30:17,R.h.a.s.a. - Pobater,701006318,,160.5,DelGuazu
+2026-10-10,18:30:17,Terminal Zarate S.A.,636025521,ITHACA,160.1,DelGuazu
+2026-10-10,18:30:17,R.h.a.s.a. - Pobater,701006318,,160.1,Braga
+2026-10-10,18:30:17,Terminal Zarate S.A.,636025521,,166.2,Braga
+2026-10-10,18:30:17,Puerto Barranqueras,701001056,ENRICO H,462.9,BellaVista
+2026-10-10,18:40:12,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,755129000,,190.2,SanLorenzo
+2026-10-10,18:40:12,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,225.6,SanLorenzo
+2026-10-10,18:40:12,Puerto Rosario,701000894,ARA PUNTA MOGOTES,31.9,SanLorenzo
+2026-10-10,18:40:12,Cofco S.A.,636093401,LEONARDO,152.5,SanLorenzo
+2026-10-10,18:40:12,Molinos Rí­o De La Plata,219027923,TORM INDIA,400.4,SanLorenzo
+2026-10-10,18:40:12,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,146.7,SanLorenzo
+2026-10-10,18:40:12,Central Termoeléctrica Timbués Renova,256740000,FLORA K,284.1,SanLorenzo
+2026-10-10,18:40:12,Central Termoeléctrica Timbués Renova,352001284,SAKIZAYA YOUTH,160.4,SanLorenzo
+2026-10-10,18:40:12,YPF Fluvial,701153000,PAULINO C,123.2,SanLorenzo
+2026-10-10,18:40:12,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,184.5,SanLorenzo
+2026-10-10,18:40:12,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,188.3,SanLorenzo
+2026-10-10,18:40:12,Puerto San Lorenzo,636020884,AHSOKA,109.9,SanLorenzo
+2026-10-10,18:40:12,Cofco S.A.,701006742,DON JUAN N,248.5,SanLorenzo
+2026-10-10,18:40:12,Aceitera General Deheza,249724000,V ALDO,227.7,SanLorenzo
+2026-10-10,18:40:12,Terminal 6 S.A. Muelle Norte,563213100,BATAVIA EXPRESS,177.4,SanLorenzo
+2026-10-10,18:40:12,Terminal Chacabuco YPF,701001114,IGUAZU,117.5,SanLorenzo
+2026-10-10,18:40:12,Louis Dreyfus y Cia. Ltda. Timbúes,538010764,CETUS TIGER,348.6,SanLorenzo
+2026-10-10,18:40:12,Terminal 6 S.A. Muelle Sur,636022353,PETROS S,158.3,SanLorenzo
+2026-10-10,18:40:12,Vicentin S.A.I.C,538005702,BAHIA,152.2,SanLorenzo
+2026-10-10,18:40:12,Toepfer International Argentina S.r.l.,636024649,LV STAR,158.1,SanLorenzo
+2026-10-10,18:40:12,Cofco S.A.,701001024,ALBERTO CACHIARELLI,175.4,SanLorenzo
+2026-10-10,18:40:12,Axion San Lorenzo,538009801,HELIOS,161.2,SanLorenzo
+2026-10-10,18:40:12,Cofco S.A.,701006396,VB RECOLETA,223.1,SanLorenzo
+2026-10-10,18:40:12,Terminal Chacabuco YPF,701001307,MAX DREAM,97.0,SanLorenzo
+2026-10-10,18:40:12,Puerto Diamante,701006803,ANTONIO PUGLIESE,455.7,SanLorenzo
+2026-10-10,18:40:12,Petrobras - Oil Combustible,701006443,MAYU,162.0,SanLorenzo
+2026-10-10,18:40:12,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,191.9,SanLorenzo
+2026-10-10,18:40:12,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,166.0,SanLorenzo
+2026-10-10,18:40:12,Cargill S.A. Muelle Quebracho,352006046,AB BONITA,196.1,Rosario
+2026-10-10,18:40:12,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017855,CAPTAIN ADAMS,225.6,Rosario
+2026-10-10,18:40:12,Puerto Rosario,701000894,ARA PUNTA MOGOTES,31.9,Rosario
+2026-10-10,18:40:12,Cofco S.A.,636093401,LEONARDO,152.5,Rosario
+2026-10-10,18:40:12,Cofco Internacional Argentina S.A.,538004564,ATHANASIA C,146.7,Rosario
+2026-10-10,18:40:12,YPF Fluvial,701153000,PAULINO C,123.2,Rosario
+2026-10-10,18:40:12,Unidad VI Servicios Portuarios S.A.,538012142,OCEAN WEST,184.5,Rosario
+2026-10-10,18:40:12,Mosaic S.A. Muelle De Fertilizantes,636019448,STAR WAVE,188.3,Rosario
+2026-10-10,18:40:12,Puerto San Lorenzo,636020884,AHSOKA,109.9,Rosario
+2026-10-10,18:40:12,Cofco S.A.,701006742,DON JUAN N,248.5,Rosario
+2026-10-10,18:40:12,Aceitera General Deheza,249724000,V ALDO,227.7,Rosario
+2026-10-10,18:40:12,Terminal Chacabuco YPF,701001114,,117.5,Rosario
+2026-10-10,18:40:12,Vicentin S.A.I.C,538005702,BAHIA,152.2,Rosario
+2026-10-10,18:40:12,Toepfer International Argentina S.r.l.,636024649,LV STAR,158.1,Rosario
+2026-10-10,18:40:12,Cofco S.A.,701001024,,175.4,Rosario
+2026-10-10,18:40:12,Axion San Lorenzo,538009801,HELIOS,161.2,Rosario
+2026-10-10,18:40:12,Cofco S.A.,701006396,VB RECOLETA,223.1,Rosario
+2026-10-10,18:40:12,Bunge - La Plata Cereal S.A.,352002957,LOWLANDS CORSO,166.0,Rosario
+2026-10-10,18:40:12,Petrobras - Oil Combustible,701006443,MAYU,162.0,Rosario
+2026-10-10,18:40:12,R.h.a.s.a. - Pobater,538004791,THE AMIGO,341.5,DelGuazu
+2026-10-10,18:40:12,Esso S.a.p.a.,636093202,LAGO DI COMO,457.4,DelGuazu
+2026-10-10,18:40:12,Carboclor S.A.,725019110,SPL TARAPACA,102.5,DelGuazu
+2026-10-10,18:40:12,Terminal Zarate S.A.,636025521,ITHACA,165.6,DelGuazu
+2026-10-10,18:40:12,Terminal Zarate S.A.,636025521,,163.2,Braga
+2026-10-10,18:40:12,Esso S.a.p.a.,636093202,,457.4,Braga
+2026-10-10,18:40:12,Puerto Barranqueras,701001056,ENRICO H,464.2,BellaVista
