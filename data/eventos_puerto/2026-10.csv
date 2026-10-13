@@ -104827,3 +104827,142 @@ fecha,hora,puerto,mmsi,nombre,distancia_m,zona
 2026-10-13,13:10:11,Terminal Portuaria Del Guazú,538006704,,453.1,Braga
 2026-10-13,13:10:11,T.a.g.s.a.,255915868,,185.2,Braga
 2026-10-13,13:10:11,Puerto Buenos Aires,755164000,BELEN B,375.6,Braga
+2026-10-13,13:20:12,Muelle Alumbrera,219027923,,165.6,SanLorenzo
+2026-10-13,13:20:12,Central Termoeléctrica Timbués Renova,636023259,ANNA-THERESA,145.7,SanLorenzo
+2026-10-13,13:20:12,Louis Dreyfus y Cia. Ltda. Muelle Aceitero,636017033,SUNDOWN,215.3,SanLorenzo
+2026-10-13,13:20:12,Cofco S.A.,701006742,DON JUAN N,250.8,SanLorenzo
+2026-10-13,13:20:12,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,158.7,SanLorenzo
+2026-10-13,13:20:12,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,184.7,SanLorenzo
+2026-10-13,13:20:12,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,90.0,SanLorenzo
+2026-10-13,13:20:12,YPF Fluvial,701170000,MAKENITA H,126.3,SanLorenzo
+2026-10-13,13:20:12,Cofco Internacional Argentina S.A.,538004382,FEDERAL SWIFT,151.4,SanLorenzo
+2026-10-13,13:20:12,Cofco Internacional Argentina S.A.,636019448,STAR WAVE,426.8,SanLorenzo
+2026-10-13,13:20:12,Vicentin S.A.I.C,219452000,TORM ATLANTIC,186.8,SanLorenzo
+2026-10-13,13:20:12,Puerto San Lorenzo,636024899,STAR HAMBURG,98.0,SanLorenzo
+2026-10-13,13:20:12,Terminal 6 S.A. Muelle Sur,538011173,DENIZ,140.2,SanLorenzo
+2026-10-13,13:20:12,Terminal Chacabuco YPF,701001324,HALCON,115.3,SanLorenzo
+2026-10-13,13:20:12,Terminal 6 S.A. Muelle Norte,636092881,BEATRICE,165.1,SanLorenzo
+2026-10-13,13:20:12,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,85.5,SanLorenzo
+2026-10-13,13:20:12,Cofco S.A.,563221500,CRIMSON SAPPHIRE,138.3,SanLorenzo
+2026-10-13,13:20:12,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,99.0,SanLorenzo
+2026-10-13,13:20:12,Asociación de Cooperativas Argentina,563298300,USANEE NAREE,205.4,SanLorenzo
+2026-10-13,13:20:12,Cargill S.A. Muelle Quebracho,636020873,BUILDER,236.7,SanLorenzo
+2026-10-13,13:20:12,Molinos Rí­o De La Plata,538010426,YASA LOTUS,373.0,SanLorenzo
+2026-10-13,13:20:12,Terminal Chacabuco YPF,701001307,MAX DREAM,113.0,SanLorenzo
+2026-10-13,13:20:12,Terminal Chacabuco YPF,701001114,IGUAZU,117.0,SanLorenzo
+2026-10-13,13:20:12,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.2,SanLorenzo
+2026-10-13,13:20:12,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,158.7,Rosario
+2026-10-13,13:20:12,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,184.7,Rosario
+2026-10-13,13:20:12,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,90.0,Rosario
+2026-10-13,13:20:12,Cofco Internacional Argentina S.A.,538004382,FEDERAL SWIFT,151.4,Rosario
+2026-10-13,13:20:12,Puerto San Lorenzo,636024899,STAR HAMBURG,98.0,Rosario
+2026-10-13,13:20:12,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,85.5,Rosario
+2026-10-13,13:20:12,Cofco S.A.,563221500,CRIMSON SAPPHIRE,138.3,Rosario
+2026-10-13,13:20:12,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,99.0,Rosario
+2026-10-13,13:20:12,Asociación de Cooperativas Argentina,563298300,,205.4,Rosario
+2026-10-13,13:20:12,Cargill S.A. Muelle Quebracho,636020873,BUILDER,236.7,Rosario
+2026-10-13,13:20:12,Molinos Rí­o De La Plata,538010426,YASA LOTUS,373.0,Rosario
+2026-10-13,13:20:12,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.2,Rosario
+2026-10-13,13:20:12,Esso S.a.p.a.,636093202,,397.0,DelGuazu
+2026-10-13,13:20:12,Terminal Zarate S.A.,710001270,MERCOSUL SANTOS,98.4,DelGuazu
+2026-10-13,13:20:12,Terminal Portuaria Del Guazú,538006704,IONIC UNICORN,452.9,DelGuazu
+2026-10-13,13:20:12,Carboclor S.A.,725019110,SPL TARAPACA,103.6,DelGuazu
+2026-10-13,13:20:12,Siderca S.A.,249865000,SREDNA GORA,418.2,DelGuazu
+2026-10-13,13:20:12,T.a.g.s.a.,255915868,,187.5,DelGuazu
+2026-10-13,13:20:12,Terminal Zarate S.A.,636016606,GOODWOOD,330.4,DelGuazu
+2026-10-13,13:20:12,Terminal Zarate S.A.,755138000,INCANSABLE,36.5,DelGuazu
+2026-10-13,13:20:12,T.a.g.s.a.,255915868,,185.9,Braga
+2026-10-13,13:20:12,Terminal Zarate S.A.,636016606,,334.3,Braga
+2026-10-13,13:30:14,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,158.3,SanLorenzo
+2026-10-13,13:30:14,Toepfer International Argentina S.r.l.,636024649,LV STAR,156.1,SanLorenzo
+2026-10-13,13:30:14,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,186.4,SanLorenzo
+2026-10-13,13:30:14,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,91.8,SanLorenzo
+2026-10-13,13:30:14,YPF Fluvial,701170000,MAKENITA H,127.9,SanLorenzo
+2026-10-13,13:30:14,Central Termoeléctrica Timbués Renova,636023259,ANNA-THERESA,143.5,SanLorenzo
+2026-10-13,13:30:14,Cofco Internacional Argentina S.A.,538004382,FEDERAL SWIFT,156.1,SanLorenzo
+2026-10-13,13:30:14,Vicentin S.A.I.C,219452000,TORM ATLANTIC,189.1,SanLorenzo
+2026-10-13,13:30:14,Cofco Internacional Argentina S.A.,636019448,STAR WAVE,432.5,SanLorenzo
+2026-10-13,13:30:14,Puerto San Lorenzo,636024899,STAR HAMBURG,98.6,SanLorenzo
+2026-10-13,13:30:14,Terminal Portuaria Del Guazú,538006704,,449.9,SanLorenzo
+2026-10-13,13:30:14,Cofco S.A.,701006742,DON JUAN N,249.8,SanLorenzo
+2026-10-13,13:30:14,Terminal 6 S.A. Muelle Sur,538011173,DENIZ,137.3,SanLorenzo
+2026-10-13,13:30:14,Terminal Chacabuco YPF,701001324,HALCON,114.8,SanLorenzo
+2026-10-13,13:30:14,Terminal 6 S.A. Muelle Norte,636092881,BEATRICE,164.6,SanLorenzo
+2026-10-13,13:30:14,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,88.5,SanLorenzo
+2026-10-13,13:30:14,Cofco S.A.,563221500,CRIMSON SAPPHIRE,138.9,SanLorenzo
+2026-10-13,13:30:14,Cargill S.A. Muelle Quebracho,636020873,BUILDER,236.2,SanLorenzo
+2026-10-13,13:30:14,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,101.7,SanLorenzo
+2026-10-13,13:30:14,Asociación de Cooperativas Argentina,563298300,USANEE NAREE,204.9,SanLorenzo
+2026-10-13,13:30:14,Molinos Rí­o De La Plata,538010426,YASA LOTUS,368.5,SanLorenzo
+2026-10-13,13:30:14,Profertil S.A.,636017611,TRITON WIND I,199.2,SanLorenzo
+2026-10-13,13:30:14,Terminal Chacabuco YPF,701001307,MAX DREAM,111.0,SanLorenzo
+2026-10-13,13:30:14,Terminal Chacabuco YPF,701001114,IGUAZU,116.3,SanLorenzo
+2026-10-13,13:30:14,Puerto Diamante,701006865,PAMPA,167.4,SanLorenzo
+2026-10-13,13:30:14,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,158.7,Rosario
+2026-10-13,13:30:14,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,184.7,Rosario
+2026-10-13,13:30:14,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,90.0,Rosario
+2026-10-13,13:30:14,Cofco Internacional Argentina S.A.,538004382,FEDERAL SWIFT,151.4,Rosario
+2026-10-13,13:30:14,Puerto San Lorenzo,636024899,STAR HAMBURG,98.0,Rosario
+2026-10-13,13:30:14,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,85.5,Rosario
+2026-10-13,13:30:14,Cofco S.A.,563221500,CRIMSON SAPPHIRE,138.3,Rosario
+2026-10-13,13:30:14,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,99.0,Rosario
+2026-10-13,13:30:14,Asociación de Cooperativas Argentina,563298300,,205.4,Rosario
+2026-10-13,13:30:14,Cargill S.A. Muelle Quebracho,636020873,BUILDER,236.7,Rosario
+2026-10-13,13:30:14,Molinos Rí­o De La Plata,538010426,YASA LOTUS,373.0,Rosario
+2026-10-13,13:30:14,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.2,Rosario
+2026-10-13,13:30:14,Terminal Zarate S.A.,710001270,MERCOSUL SANTOS,96.1,DelGuazu
+2026-10-13,13:30:14,Carboclor S.A.,725019110,SPL TARAPACA,105.1,DelGuazu
+2026-10-13,13:30:14,Terminal Portuaria Del Guazú,538006704,IONIC UNICORN,449.9,DelGuazu
+2026-10-13,13:30:14,Siderca S.A.,249865000,SREDNA GORA,415.6,DelGuazu
+2026-10-13,13:30:14,Esso S.a.p.a.,636093202,,397.9,DelGuazu
+2026-10-13,13:30:14,Terminal Zarate S.A.,636016606,GOODWOOD,333.7,DelGuazu
+2026-10-13,13:30:14,Terminal Zarate S.A.,755138000,INCANSABLE,41.0,DelGuazu
+2026-10-13,13:30:14,Terminal Portuaria Del Guazú,538006704,,448.4,Braga
+2026-10-13,13:30:14,T.a.g.s.a.,255915868,,186.4,Braga
+2026-10-13,13:40:10,Terminal Portuaria Del Guazú,538006704,,452.5,SanLorenzo
+2026-10-13,13:40:10,Cofco Internacional Argentina S.A.,538004382,FEDERAL SWIFT,152.5,SanLorenzo
+2026-10-13,13:40:10,Cofco Internacional Argentina S.A.,636019448,STAR WAVE,421.7,SanLorenzo
+2026-10-13,13:40:10,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,86.7,SanLorenzo
+2026-10-13,13:40:10,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.8,SanLorenzo
+2026-10-13,13:40:10,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,93.0,SanLorenzo
+2026-10-13,13:40:10,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,187.4,SanLorenzo
+2026-10-13,13:40:10,YPF Fluvial,701170000,MAKENITA H,127.8,SanLorenzo
+2026-10-13,13:40:10,Central Termoeléctrica Timbués Renova,636023259,ANNA-THERESA,148.4,SanLorenzo
+2026-10-13,13:40:10,Vicentin S.A.I.C,219452000,TORM ATLANTIC,188.7,SanLorenzo
+2026-10-13,13:40:10,Puerto San Lorenzo,636024899,STAR HAMBURG,98.7,SanLorenzo
+2026-10-13,13:40:10,Cofco S.A.,701006742,DON JUAN N,250.3,SanLorenzo
+2026-10-13,13:40:10,Terminal Chacabuco YPF,701001324,HALCON,116.0,SanLorenzo
+2026-10-13,13:40:10,Terminal 6 S.A. Muelle Sur,538011173,DENIZ,133.7,SanLorenzo
+2026-10-13,13:40:10,Terminal 6 S.A. Muelle Norte,636092881,BEATRICE,164.7,SanLorenzo
+2026-10-13,13:40:10,Cofco S.A.,563221500,CRIMSON SAPPHIRE,136.5,SanLorenzo
+2026-10-13,13:40:10,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,102.3,SanLorenzo
+2026-10-13,13:40:10,Cargill S.A. Muelle Quebracho,636020873,BUILDER,238.1,SanLorenzo
+2026-10-13,13:40:10,Asociación de Cooperativas Argentina,563298300,USANEE NAREE,204.3,SanLorenzo
+2026-10-13,13:40:10,Molinos Rí­o De La Plata,538010426,YASA LOTUS,369.4,SanLorenzo
+2026-10-13,13:40:10,Profertil S.A.,636017611,,197.4,SanLorenzo
+2026-10-13,13:40:10,Terminal Chacabuco YPF,701001114,IGUAZU,117.2,SanLorenzo
+2026-10-13,13:40:10,Terminal Chacabuco YPF,701001307,MAX DREAM,98.8,SanLorenzo
+2026-10-13,13:40:10,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,157.0,SanLorenzo
+2026-10-13,13:40:10,Terminal 6 S.A. Muelle Norte,636092881,,166.0,Rosario
+2026-10-13,13:40:10,Toepfer International Argentina S.r.l.,636024649,LV STAR,155.8,Rosario
+2026-10-13,13:40:10,Mosaic S.A. Muelle De Fertilizantes,352002172,TAI HONOR,187.4,Rosario
+2026-10-13,13:40:10,ADM Agro Terminal El Tránsito,636026291,19 MAYIS,93.0,Rosario
+2026-10-13,13:40:10,Cofco Internacional Argentina S.A.,538004382,,152.5,Rosario
+2026-10-13,13:40:10,Puerto San Lorenzo,636024899,STAR HAMBURG,98.7,Rosario
+2026-10-13,13:40:10,Puerto Rosario S. A. Terminal 1,563283800,ISE HARMONY,88.4,Rosario
+2026-10-13,13:40:10,Cofco S.A.,563221500,CRIMSON SAPPHIRE,136.5,Rosario
+2026-10-13,13:40:10,Cargill S.A. Punta Alvear,563302200,IONA ISLAND,102.3,Rosario
+2026-10-13,13:40:10,Cargill S.A. Muelle Quebracho,636020873,BUILDER,238.1,Rosario
+2026-10-13,13:40:10,Molinos Rí­o De La Plata,538010426,YASA LOTUS,369.4,Rosario
+2026-10-13,13:40:10,Cargill S.A. Villa Gdor. Gálvez,701006901,,493.3,Rosario
+2026-10-13,13:40:10,Puerto Villa Constitución Unidad II,701006679,,73.2,Rosario
+2026-10-13,13:40:10,Unidad VI Servicios Portuarios S.A.,257162000,BOW ARCHITECT,157.0,Rosario
+2026-10-13,13:40:10,Carboclor S.A.,725019110,SPL TARAPACA,106.2,DelGuazu
+2026-10-13,13:40:10,Terminal Portuaria Del Guazú,538006704,IONIC UNICORN,452.2,DelGuazu
+2026-10-13,13:40:10,Siderca S.A.,249865000,SREDNA GORA,413.8,DelGuazu
+2026-10-13,13:40:10,Esso S.a.p.a.,636093202,,403.3,DelGuazu
+2026-10-13,13:40:10,T.a.g.s.a.,255915868,,185.8,DelGuazu
+2026-10-13,13:40:10,Terminal Zarate S.A.,636016606,GOODWOOD,334.4,DelGuazu
+2026-10-13,13:40:10,Terminal Zarate S.A.,755138000,INCANSABLE,36.7,DelGuazu
+2026-10-13,13:40:10,Terminal Zarate S.A.,710001270,MERCOSUL SANTOS,97.6,DelGuazu
+2026-10-13,13:40:10,Puerto Buenos Aires,755164000,BELEN B,375.2,Braga
