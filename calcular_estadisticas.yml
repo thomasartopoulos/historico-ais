@@ -1,0 +1,258 @@
+name: Calcular estadisticas AIS
+
+on:
+  workflow_run:
+    workflows: ["Actualizar datos AIS"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  estadisticas:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar shapely
+        run: pip install shapely --break-system-packages
+
+      - name: Detectar navegacion en rio y visitas a puertos (con umbrales y sesiones)
+        run: |
+          mkdir -p data/eventos_rio data/eventos_puerto
+          python3 - <<'PYEOF2'
+          import json, csv, math, os, glob, urllib.request
+          from datetime import datetime, timezone, timedelta
+          from shapely.geometry import shape, Point
+          from shapely.ops import unary_union
+          from shapely.prepared import prep
+
+          ESCALA = 600000
+          RADIO_TIERRA_M = 6371000
+          DIST_MAX_REGISTRO = 500  # metros, umbral más amplio que soportamos
+
+          BASE_MAPA = "https://raw.githubusercontent.com/thomasartopoulos/ais-parana-map/main/data"
+
+          def haversine_m(lat1, lon1, lat2, lon2):
+              p1, p2 = math.radians(lat1), math.radians(lat2)
+              dphi = math.radians(lat2 - lat1)
+              dlmb = math.radians(lon2 - lon1)
+              a = math.sin(dphi/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dlmb/2)**2
+              return 2 * RADIO_TIERRA_M * math.asin(math.sqrt(a))
+
+          def bajar_json(nombre):
+              with urllib.request.urlopen(f"{BASE_MAPA}/{nombre}", timeout=30) as resp:
+                  return json.loads(resp.read().decode("utf-8"))
+
+          puertos_gj = bajar_json("puertos.geojson")
+          puertos = [(f["properties"]["nombre"], f["geometry"]["coordinates"][1], f["geometry"]["coordinates"][0])
+                     for f in puertos_gj["features"]]
+
+          rios_gj = bajar_json("rios.geojson")
+          rios_prep = prep(unary_union([shape(f["geometry"]) for f in rios_gj["features"] if f["geometry"]]))
+
+          with open("data/latest.json", encoding="utf-8") as f:
+              combinado = json.load(f)
+
+          ahora = datetime.now(timezone.utc)
+          fecha = ahora.strftime("%Y-%m-%d")
+          hora = ahora.strftime("%H:%M:%S")
+          mes = ahora.strftime("%Y-%m")
+
+          eventos_rio, eventos_puerto = [], []
+
+          for zona, dz in (combinado.get("zonas") or {}).items():
+              for mmsi, tgt in (dz.get("tgts") or {}).items():
+                  if tgt.get("t") not in (0, 1):
+                      continue
+                  x, y = tgt.get("x"), tgt.get("y")
+                  if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+                      continue
+                  lat, lon = y / ESCALA, x / ESCALA
+                  if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+                      continue
+                  nombre = tgt.get("n", "")
+                  punto = Point(lon, lat)
+
+                  if rios_prep.contains(punto):
+                      eventos_rio.append({"fecha": fecha, "hora": hora, "mmsi": mmsi, "nombre": nombre, "zona": zona})
+
+                  if tgt.get("s") == 0:
+                      mejor = None
+                      for nombre_puerto, plat, plon in puertos:
+                          d = haversine_m(lat, lon, plat, plon)
+                          if d <= DIST_MAX_REGISTRO and (mejor is None or d < mejor[1]):
+                              mejor = (nombre_puerto, d)
+                      if mejor:
+                          eventos_puerto.append({
+                              "fecha": fecha, "hora": hora, "puerto": mejor[0], "mmsi": mmsi,
+                              "nombre": nombre, "distancia_m": round(mejor[1], 1), "zona": zona,
+                              "lat": round(lat, 5), "lon": round(lon, 5),
+                          })
+
+          def append_csv(path, filas, campos):
+              os.makedirs(os.path.dirname(path), exist_ok=True)
+              nuevo = not os.path.exists(path)
+              with open(path, "a", newline="", encoding="utf-8") as f:
+                  w = csv.DictWriter(f, fieldnames=campos)
+                  if nuevo:
+                      w.writeheader()
+                  w.writerows(filas)
+
+          append_csv(f"data/eventos_rio/{mes}.csv", eventos_rio, ["fecha","hora","mmsi","nombre","zona"])
+          append_csv(f"data/eventos_puerto/{mes}.csv", eventos_puerto, ["fecha","hora","puerto","mmsi","nombre","distancia_m","zona","lat","lon"])
+
+          print(f"Río: {len(eventos_rio)} | Puerto (<=500m, fondeado): {len(eventos_puerto)}")
+
+          def cargar_todos(patron):
+              filas = []
+              for path in sorted(glob.glob(patron)):
+                  with open(path, encoding="utf-8") as f:
+                      filas.extend(csv.DictReader(f))
+              for row in filas:
+                  # fecha/hora se capturaron en UTC (ahora = datetime.now(timezone.utc)),
+                  # pero al pasar por CSV se guardan como texto "naive". Hay que
+                  # re-etiquetarlas como UTC explicitamente, si no el navegador las
+                  # interpreta como hora LOCAL al hacer new Date(...) en JS, y eso
+                  # descuadra 3hs (Argentina) los filtros de "Hoy"/"Semana"/etc.
+                  row["ts"] = datetime.fromisoformat(f"{row['fecha']}T{row['hora']}").replace(tzinfo=timezone.utc)
+              return filas
+
+          # --- censo diario de río (simple, no necesita sesiones) ---
+          por_dia_rio = {}
+          for row in cargar_todos("data/eventos_rio/*.csv"):
+              por_dia_rio.setdefault(row["fecha"], set()).add(row["mmsi"])
+
+          with open("data/resumen_diario.json", "w", encoding="utf-8") as f:
+              json.dump({
+                  "actualizado": ahora.isoformat(),
+                  "nota": "buques_unicos = MMSI distintos vistos ese dia navegando dentro del poligono del rio.",
+                  "por_dia": {d: {"rio_buques_unicos": len(m)} for d, m in por_dia_rio.items()},
+              }, f, ensure_ascii=False)
+
+          # --- sesiones/visitas a puerto ---
+          # Se agrupa por BUQUE, mirando toda su secuencia cronológica de detecciones.
+          # Una visita se corta SOLO cuando hay evidencia real de que el buque se movió:
+          #   (a) aparece cerca de un puerto DISTINTO Y LEJANO (>1000m, no es el mismo
+          #       complejo portuario), o
+          #   (b) aparece navegando en una ZONA distinta (dato de eventos_rio, que no
+          #       depende de estar cerca de un puerto) durante el hueco.
+          # Si NO hay ninguna de esas señales, el hueco se tolera sin importar cuánto
+          # dure (el buque puede haber quedado fondeado esperando turno, o hubo un
+          # corte de señal) -- excepto que supere LIMITE_SANIDAD_HORAS, un tope de
+          # seguridad para no fusionar apariciones separadas por semanas sin evidencia
+          # alguna de qué hizo el buque mientras tanto.
+          DIST_MISMO_COMPLEJO_M = 1000  # ver puertos_contiguos_menos_1000m.csv: cubre los 45 pares detectados
+          LIMITE_SANIDAD_HORAS = 168    # 7 dias: tope de seguridad aunque no haya evidencia de movimiento
+
+          puerto_coords = {nombre: (plat, plon) for nombre, plat, plon in puertos}
+
+          def es_mismo_complejo(puerto_a, puerto_b):
+              if puerto_a == puerto_b:
+                  return True
+              ca, cb = puerto_coords.get(puerto_a), puerto_coords.get(puerto_b)
+              if not ca or not cb:
+                  return False
+              return haversine_m(ca[0], ca[1], cb[0], cb[1]) <= DIST_MISMO_COMPLEJO_M
+
+          eventos_p = cargar_todos("data/eventos_puerto/*.csv")
+          eventos_r = cargar_todos("data/eventos_rio/*.csv")
+
+          por_mmsi = {}
+          for row in eventos_p:
+              por_mmsi.setdefault(row["mmsi"], []).append(row)
+
+          # timeline combinado (rio + puerto) por buque, para buscar evidencia de
+          # movimiento durante los huecos entre detecciones de puerto
+          timeline_por_mmsi = {}
+          for row in eventos_r:
+              timeline_por_mmsi.setdefault(row["mmsi"], []).append(row)
+          for row in eventos_p:
+              timeline_por_mmsi.setdefault(row["mmsi"], []).append(row)
+          for mmsi in timeline_por_mmsi:
+              timeline_por_mmsi[mmsi].sort(key=lambda r: r["ts"])
+
+          def hay_evidencia_de_movimiento(mmsi, t_desde, t_hasta, zonas_sesion, puerto_actual):
+              for ev in timeline_por_mmsi.get(mmsi, []):
+                  if not (t_desde < ev["ts"] < t_hasta):
+                      continue
+                  puerto_ev = ev.get("puerto")
+                  if puerto_ev and not es_mismo_complejo(puerto_ev, puerto_actual):
+                      return True
+                  if ev.get("zona") not in zonas_sesion:
+                      return True
+              return False
+
+          visitas = []
+          for mmsi, evs in por_mmsi.items():
+              evs.sort(key=lambda r: r["ts"])
+              sesion = [evs[0]]
+              puerto_actual = evs[0]["puerto"]
+              zonas_sesion = {evs[0]["zona"]}
+              for ev in evs[1:]:
+                  gap_horas = (ev["ts"] - sesion[-1]["ts"]).total_seconds() / 3600
+                  mismo_complejo = es_mismo_complejo(ev["puerto"], puerto_actual)
+
+                  if not mismo_complejo:
+                      cortar = True
+                  elif gap_horas > LIMITE_SANIDAD_HORAS:
+                      cortar = True
+                  else:
+                      cortar = hay_evidencia_de_movimiento(
+                          mmsi, sesion[-1]["ts"], ev["ts"], zonas_sesion, puerto_actual)
+
+                  if cortar:
+                      visitas.append(sesion)
+                      sesion = [ev]
+                      puerto_actual = ev["puerto"]
+                      zonas_sesion = {ev["zona"]}
+                  else:
+                      sesion.append(ev)
+                      zonas_sesion.add(ev["zona"])
+              visitas.append(sesion)
+
+          visitas_out = []
+          for s in visitas:
+              inicio, fin = s[0]["ts"], s[-1]["ts"]
+              visitas_out.append({
+                  "mmsi": s[0]["mmsi"], "nombre": s[0]["nombre"], "puerto": s[0]["puerto"],
+                  "inicio": inicio.isoformat(), "fin": fin.isoformat(),
+                  "duracion_horas": round((fin - inicio).total_seconds() / 3600, 2),
+              })
+
+          # Filtro de calidad: una sola lectura suelta con velocidad 0 (o un par muy
+          # seguidas) puede ser ruido de la señal, no un paro real. Se exige que la
+          # visita haya durado al menos UMBRAL_PARADA_MIN_MIN para calificar como
+          # estadia real (con corridas cada ~10 min, hacen falta al menos ~4 detecciones
+          # consecutivas para llegar a 30 min).
+          UMBRAL_PARADA_MIN_MIN = 30
+          antes_del_filtro = len(visitas_out)
+          visitas_out = [v for v in visitas_out if v["duracion_horas"] * 60 >= UMBRAL_PARADA_MIN_MIN]
+          print(f"Filtro de {UMBRAL_PARADA_MIN_MIN} min: {antes_del_filtro} -> {len(visitas_out)} visitas (se descarta ruido de detecciones sueltas)")
+
+          with open("data/visitas.json", "w", encoding="utf-8") as f:
+              json.dump({
+                  "actualizado": ahora.isoformat(),
+                  "nota": "Cada visita agrupa las detecciones consecutivas de un buque cerca del mismo puerto "
+                          "(o complejo portuario contiguo, <1000m). El hueco entre detecciones se tolera sin "
+                          "limite de tiempo salvo que haya evidencia real de que el buque se movio: aparece cerca "
+                          "de un puerto distinto y lejano, o navegando en una zona distinta (dato de rio) durante "
+                          f"el hueco. Tope de seguridad: {LIMITE_SANIDAD_HORAS // 24} dias sin evidencia alguna. "
+                          "Se descartan visitas de menos de "
+                          f"{UMBRAL_PARADA_MIN_MIN} minutos (probable ruido de senal, no una parada real). "
+                          "'inicio' define a que periodo pertenece la visita.",
+                  "visitas": visitas_out,
+              }, f, ensure_ascii=False)
+
+          print(f"OK: {len(visitas_out)} visitas de puerto, {len(por_dia_rio)} dias de censo de rio")
+          PYEOF2
+
+      - name: Commit y push de las estadisticas
+        run: |
+          git config user.name "ais-bot"
+          git config user.email "ais-bot@users.noreply.github.com"
+          git add data/eventos_rio data/eventos_puerto data/resumen_diario.json data/visitas.json
+          git diff --staged --quiet || (git commit -m "Actualiza estadisticas AIS $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git push)
